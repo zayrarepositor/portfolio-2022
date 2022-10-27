@@ -2,38 +2,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Consolas, "courier new";
+  font-family: Consolas, 'courier new';
 }
 
-body {
-  background: rgba(191, 145, 84, 0.4)
+/* body {
+  background: rgb(165, 161, 161);
 }
-
-p {
+ */
+/* p {
   color: rgba(31, 7, 7, 0.8);
   font-size: 1.5rem;
   line-height: 155%;
   padding: 2%;
   text-indent: 2%;
   text-align: center;
-}
+} */
 
-code {
+/* code {
   font-family: 'Courier New', Courier, monospace;
   color: rgba(31, 7, 7, 0.8);
   font-weight: 800;
   font-size: 1.2rem;
-}
+} */
 
-h1 {
+/* h1 {
   font-size: 8rem;
   line-height: 10rem;
   font-weight: 900;
   color: rgba(31, 7, 7, 0.8);
   padding: 1rem;
-}
+} */
 
-h2 {
+/* h2 {
   font-size: 9rem;
   line-height: 10rem;
   font-weight: bolder;
@@ -68,31 +68,31 @@ a:hover {
 
 .active {
   color: rgb(235, 198, 153, 0.6);
-}
+} */
 
-img {
+/* img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
   width: auto;
   height: auto;
-  /*   margin-bottom: -4px; */
-}
+  /*   margin-bottom: -4px; 
+} */
 
-#wrapper {
+/* #wrapper {
   background: rgba(229, 186, 129, 0.4);
   max-width: 1200px;
   margin: 0 auto;
-}
+} */
 
-.container {
+/* .container {
   /*   background: rgba(121, 211, 151, 0.3);
- */
+ 
   align-items: center;
   overflow: visible;
-}
+} */
 
-header {
+/* header {
   background: rgba(191, 145, 84, 0.4);
   width: 100%;
   height: 7rem;
@@ -115,7 +115,6 @@ header {
   height: 180px;
   border-radius: 50%;
   border: 3px solid rgba(31, 7, 7, 0.2);
-  /*  margin-top: -6rem; */
 }
 
 nav {
@@ -134,9 +133,8 @@ nav ul li {
   font-size: 160%;
   padding: 10px;
 }
-
+*/
 .up {
-
   position: fixed;
   top: 35rem;
   right: 5rem;
@@ -161,12 +159,12 @@ nav ul li {
   cursor: pointer;
 }
 
-.up figure:hover>.up-text {
+.up figure:hover > .up-text {
   opacity: 1;
   visibility: visible;
 }
 
-/* about */
+/* about 
 .about-container {
   width: 100%;
   background-color: rgba(221, 180, 130, 0.5);
@@ -189,10 +187,9 @@ nav ul li {
   float: inline-start;
 }
 
-/* slider */
+/* slider 
 .slidercontainer {
-  /*   background-color: rgba(226, 43, 61, 0.8);
- */
+
   margin: -11rem 0 auto auto;
   width: 600px;
   height: 500px;
@@ -200,8 +197,7 @@ nav ul li {
 }
 
 ul.slider {
-  /*   background-color: rgb(214, 226, 43, 0.3);
- */
+ 
   position: relative;
   margin: -16rem auto 0 0;
   width: 280px;
@@ -210,8 +206,7 @@ ul.slider {
 }
 
 ul.slider li {
-  /*   background-color: rgba(89, 43, 226, 0.8);
- */
+ 
   position: absolute;
   left: 0;
   bottom: 0;
@@ -219,7 +214,7 @@ ul.slider li {
   opacity: 0;
   width: inherit;
   height: 550px;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 ul.slider li div {
@@ -269,7 +264,7 @@ ul.slider li:target {
   padding: 0.2rem;
 }
 
-/* skills */
+/* skills 
 .skills-section {
   background: rgba(191, 145, 84, 0.5);
   width: 33.3%;
@@ -288,9 +283,8 @@ ul.slider li:target {
   border-radius: 50%;
 }
 
-/* rgba(191, 145, 84, 0.8) rgb(231, 192, 144) rgb(235, 198, 153)  */
 
-/* links */
+/* links 
 .links-container {
   background: rgba(201, 154, 121, 0.6);
   width: 100%;
@@ -299,18 +293,17 @@ ul.slider li:target {
   padding: 5rem 0 7rem 0;
   margin-top: -9rem;
   margin-bottom: -6rem;
-
 }
 
 #links {
-  /* background-color: rgba(92, 43, 226, 0.593); */
+  
   height: 250px;
   margin-top: 21rem;
   padding: 0;
 }
 
 .links-section {
-  /*  background-color: rgba(214, 226, 43, 0.522); */
+  
   float: left;
   width: 42%;
   height: auto;
@@ -319,8 +312,7 @@ ul.slider li:target {
 }
 
 .links-section-side {
-  /*   background-color: rgba(43, 226, 147, 0.538);
- */
+  
   float: right;
   width: 50%;
   height: 250px;
@@ -352,14 +344,14 @@ ul.slider li:target {
   margin-top: -3rem;
 }
 
-/* projects */
+/* projects 
 .projects-container {
   background-color: rgb(255, 0, 98);
   align-items: center;
 }
 
 .projects-section {
-  /*  background-color: rgb(214, 255, 127); */
+ 
   width: 29%;
   height: 360px;
   float: left;
@@ -370,19 +362,17 @@ ul.slider li:target {
 }
 
 .projects-section h3 {
-  /*  background-color: rgb(214, 255, 127); */
+  
   min-height: 110px;
 }
 
 .projects-section img {
   margin: 0.5rem auto 0.5rem;
-
 }
 
 .projects-section figcaption {
   border-radius: 50%;
   margin: 0.5rem auto 0.5rem;
-
 }
 
 .projects-section figure {
@@ -391,9 +381,9 @@ ul.slider li:target {
   min-height: 260px;
 }
 
-/* contact */
+/* contact 
 #contact {
-  /*  background-color: rgb(0, 255, 255); */
+  
   height: 180px;
   margin-top: 51rem;
 }
@@ -406,14 +396,14 @@ ul.slider li:target {
   padding-top: 6rem;
 }
 
-/* recomendations */
+/* recomendations 
 .recomendations-container {
   background: rgba(146, 121, 201, 0.6);
   width: 100%;
 }
 
 .recomendation-section {
-  /*   background: rgba(201, 154, 121, 0.6); */
+  
   width: 46%;
   min-height: 420px;
   float: left;
@@ -436,7 +426,7 @@ ul.slider li:target {
   border-radius: 50%;
 }
 
-/* footer */
+/* footer 
 footer {
   background: rgba(193, 155, 106, 0.4);
   width: 100%;
@@ -453,7 +443,7 @@ footer {
   float: left;
   width: 20%;
   padding: 1rem;
-  /*   background-color: rgba(0, 255, 255, 0.402); */
+  
   font-size: 1.5rem;
   height: 100%;
   text-align: right;
@@ -461,15 +451,14 @@ footer {
 }
 
 .footer-icons {
-  /*   background-color: rgba(225, 255, 0, 0.402);
- */
+ 
   float: left;
   width: 80%;
   padding: 1% 0 2% 55%;
 }
 
 .footer-ul {
-  /*   background-color: rgba(0, 255, 21, 0.402); */
+  
   display: flex;
   padding: 1rem;
 }
@@ -488,7 +477,7 @@ footer {
   border-radius: 50%;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   p {
     font-size: 1.2rem;
     line-height: 1rem;
@@ -522,17 +511,15 @@ footer {
   }
 
   .up {
-    /*   background-color: rgba(142, 130, 221, 0.5);
-   */
+   
     position: fixed;
     top: 33rem;
     right: 3rem;
   }
 
-  /* about */
+  /* about 
   .about-container {
-    /*     background-color: rgba(142, 130, 221, 0.5);
- */
+ 
     display: flexbox;
     flex-flow: column;
   }
@@ -547,26 +534,26 @@ footer {
     padding-left: 1rem;
   }
 
-  /* slider */
+  /* slider 
   .slidercontainer {
-    /*  background-color: rgba(64, 43, 226, 0.8); */
+    /*  background-color: rgba(64, 43, 226, 0.8); 
     margin: -10rem 0 auto auto;
     width: 100%;
-    /* 8 */
+   
     height: 500px;
     padding-top: 8rem;
   }
 
   ul.slider {
     /*     background-color: rgba(128, 226, 43, 0.2);
- */
+ 
     width: 100%;
     height: 390px;
   }
 
   ul.slider li {
     /*     background-color: rgba(43, 226, 58, 0.733);
- */
+ 
     width: 360px;
     height: 510px;
   }
@@ -578,7 +565,7 @@ footer {
   }
 
   .slidermenu {
-    /*  margin: -6rem 1rem auto auto; */
+    /*  margin: -6rem 1rem auto auto; 
     width: 100%;
     margin-top: -1rem;
     padding-bottom: 1.5rem;
@@ -616,7 +603,7 @@ footer {
     width: 100%;
   }
 
-  /* skills */
+  /* skills 
 
   .skills-section {
     width: 100%;
@@ -628,7 +615,7 @@ footer {
     margin: -4rem auto -7rem;
   }
 
-  /* links */
+  /* links 
   .links-container {
     display: flexbox;
     flex-flow: column;
@@ -643,9 +630,9 @@ footer {
     width: 100%;
   }
 
-  /* projects */
+  /* projects 
   .projects-section {
-    /*     background-color: aqua; */
+    /*     background-color: aqua; 
     width: 100%;
     height: 310px;
     margin: 0.5rem auto 0.5rem auto;
@@ -654,7 +641,7 @@ footer {
 
   .projects-section h3 {
     /*     background-color: rgb(214, 255, 127);
- */
+ 
     min-height: 90px;
     font-size: 2.5rem;
   }
@@ -664,10 +651,10 @@ footer {
     min-height: 160px;
   }
 
-  /* contact */
+  /* contact 
   #contact {
     /*     background-color: rgb(0, 255, 255);
- */
+ 
     margin-top: 120rem;
   }
 
@@ -682,7 +669,7 @@ footer {
     font-size: 1.5rem;
   }
 
-  /* recomendations */
+  /* recomendations 
   #recomendations {
     font-size: 3rem;
   }
@@ -701,7 +688,7 @@ footer {
     font-size: 1rem;
   }
 
-  /* footer */
+  /* footer 
   .footer-container {
     width: 100%;
     min-height: 100px;
@@ -718,7 +705,6 @@ footer {
     width: 100%;
   }
 
-
   .footer-ul {
     padding: 0.1rem;
   }
@@ -727,3 +713,4 @@ footer {
     width: 100%;
   }
 }
+ */

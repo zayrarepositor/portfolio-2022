@@ -1,463 +1,896 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title & description -->
+    <title>Zayra V</title>
+    <meta
+      name="description"
+      content="full stack software developer argentin portfolio - rosario, argentina"
+    />
+    <!-- favicon -->
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href="./assets/img/icons8-usuario-femenino-50.png"
+    />
+    <!-- bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- bootstrap 5 icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- title & description -->
-  <title>Zayra V</title>
-  <meta name="description" content="full stack software developer argentin portfolio - rosario, argentina">
-  <!-- favicon -->
-  <link type="image/png" sizes="32x32" rel="icon" href="./assets/img/icons8-usuario-femenino-50.png">
-  <!-- css -->
-  <link rel="stylesheet" href="./css/index.css">
-</head>
-
-<body>
-  <div id="wrapper">
-    <div class="container">
-      <!-- header -->
-      <header>
-        <div class="header-gift">
-          <img src="https://raw.githubusercontent.com/zayrarepositor/zayrarepositor/main/MQXv.gif" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body class="bg-dark text-white">
+    <!-- header -->
+    <header>
+      <div class="row d-flex bg-dark text-center">
+        <div class="col-md-8 mx-auto">
+          <img
+            id="home"
+            src="https://raw.githubusercontent.com/zayrarepositor/zayrarepositor/main/MQXv.gif"
+            class="card-img-top"
+            style="height: 130px"
+            alt="..."
+          />
         </div>
-        <nav>
-          <a href="#" id="menu-icon"><i class="fa fa-bars"></i></a>
-          <ul>
-            <li>
-              <a href="index.html" class="active">Inicio</a>
+      </div>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="bi bi-chevron-bar-down"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active" aria-current="page"
+                >Inicio</a
+              >
             </li>
-            <li>
-              <a href="#about">About</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
             </li>
-            <li>
-              <a href="#skills">Skills</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <li>
-              <a href="#links">Links</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#links">Links</a>
             </li>
-            <li>
-              <a href="#projects">Projects</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
-            <li>
-              <a href="#contact">Contact</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
-            <li>
-              <a href="#recomendations">Recomendations</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#recomendations">Recomendations</a>
             </li>
           </ul>
-        </nav>
-      </header>
-      <h1>Zayra Velasco</h1>
-      <div class="about-code">
-        <p>
-        <pre>
-              <code>
-    &lt;p&gt; Admin manager and &lt;br&gt; 
-            
-      &lt;span&gt; Full stack &lt;/span&gt;
-                  
-        Software developer  
-            
-    &lt;/p&gt;
-              </code>
-            </pre>
-        </p>
+        </div>
+      </nav>
+      <!-- Zayra Velasco -->
+      <h1 class="mx-4 display-1 text-secondary">Zayra Velasco</h1>
+      <div class="row d-flex align-items-center bg-dark text-center mx-2">
+        <div class="col-4">
+          <h5>Software developer</h5>
+        </div>
+        <div class="col-4">
+          <img
+            class="mx-auto"
+            src="./assets/img/zayraprofile2MB.png"
+            alt="zayra"
+            style="width: 100px; border-radius: 50%"
+          />
+        </div>
+        <div class="col-4">
+          <h5>Admin Manager</h5>
+        </div>
       </div>
-    </div>
+    </header>
     <!-- up -->
     <div class="up">
       <figure>
         <div class="up-text">
           <p>up</p>
         </div>
-        <a href="index.html"><img class="up-img" src="assets/img/icons8-arriba-en-círculo-2-50.png" alt="up" /></a>
+        <a href="index.html">
+          <i class="bi bi-chevron-up text-secondary h4"></i>
+        </a>
       </figure>
     </div>
     <!-- about -->
-    <h2 id="about">about</h2>
-
-    <div class="about-container">
-
-      <div class="slidercontainer">
-        <h3>My life's Routine</h3>
-        <img class="logo" src="./assets/img/zayraprofile2MB.png" alt="zayra" />
-        <ul class="slider">
-          <li id="slide1">
-            <div><img src="./assets/about/icons8-bolsa-de-papel-con-semillas-50.png" alt="seeds" />
-              <p>INTP issues</p>
-              <p>+ music</p>
-            </div>
-          </li>
-          <li id="slide2">
-            <div><img src="./assets/about/icons8-growing-plant-50.png" alt="water" />
-              <p>health readings</p>
-              <p>+ coding</p>
-            </div>
-          </li>
-          <li id="slide3">
-            <div><img src="./assets/about/icons8-planta-bajo-la-lluvia-50.png" alt="sun" />
-              <p>customer service</p>
-              <p>jobs</p>
-            </div>
-          </li>
-          <li id="slide4">
-            <div><img src="./assets/about/icons8-planta-bajo-el-sol-50.png" alt="pokemon icon" />
-              <p>coding</p>
-              <p>+ arts shocks</p>
-            </div>
-          </li>
-          <li id="slide5">
-            <div><img src="./assets/about/icons8-brote-50.png" alt="plant" />
-              <p>programming studies</p>
-              <p>+ yoga</p>
-            </div>
-          </li>
-          <li id="slide6">
-            <div><img src="./assets/about/icons8-ramo-de-flores-50.png" alt="flowers" />
-              <p>new studies
-              </p>
-              <p>+ projects</p>
-            </div>
-          </li>
-        </ul>
-        <ul class="slidermenu">
-          <li><a href="#slide1">1°</a></li>
-          <li><a href="#slide2">2°</a></li>
-          <li><a href="#slide3">3°</a></li>
-          <li><a href="#slide4">4°</a></li>
-          <li><a href="#slide5">5°</a></li>
-          <li><a href="#slide6">6°</a></li>
-        </ul>
+    <h2 class="mx-4 display-1 text-secondary" id="about">about</h2>
+    <div
+      class="container-fluid text-center align-items-center bg-dark text-white"
+    >
+      <div class="row">
+        <div class="col-12 col-md-8 px-3">
+          <h6 class="mb-3">
+            As Developer I have participated in group projects (SCRUM
+            methodology) as a full MERN stack.
+          </h6>
+          <h6 class="mb-3">
+            As Admin Manager I have more than 15 years of work experience
+            leading groups or personal projects, always in customer-focused
+            areas.
+          </h6>
+        </div>
+        <div class="col-12 col-md-4 px-3">
+          <h5 class="mb-3">Favorites</h5>
+          <p>coding + music + health readings + arts shocks + yoga</p>
+        </div>
       </div>
     </div>
-
     <!-- skills -->
-    <h2 id="skills">skills</h2>
-    <div class="skills-container">
-      <div class="skills-section">
-        <div class="skills-icon">
-          <img src="./assets/skills/icons8-collaborating-in-circle-50.png" alt="teamwork"></img>
+    <h2 class="mx-4 display-1 text-secondary" id="skills">skills</h2>
+    <div id="skillsCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="text-white text-center">
+            <h5>Softs</h5>
+          </div>
+          <img
+            src="./assets/skills/icons8-red-de-negocios-50.png"
+            class="d-block mx-auto my-3"
+            style="width: 50px"
+            alt="..."
+          />
+          <div class="text-white text-center">
+            <p>Logical thinking</p>
+            <p>Effective communication</p>
+            <p>Continuous learning</p>
+          </div>
         </div>
-        <h3>Softs</h3>
-        <p>Logical thinking</p>
-        <p>Effective communication</p>
-        <p>Continuous learning</p>
-      </div>
-      <div class="skills-section">
-        <div class="skills-icon">
-          <img src="./assets/skills/icons8-javascript-50.png" alt="javascript" />
+        <div class="carousel-item">
+          <div class="text-white text-center">
+            <h3>Techs</h3>
+          </div>
+          <img
+            src="./assets/skills/icons8-javascript-50.png"
+            class="d-block mx-auto my-3"
+            style="width: 50px"
+            alt="..."
+          />
+          <div class="text-white text-center">
+            <p>JavaScript</p>
+            <p>NodeJS</p>
+            <p>React</p>
+          </div>
         </div>
-        <h3>Techs</h3>
-        <p>JavaScript</p>
-        <p>NodeJS</p>
-        <p>React</p>
-      </div>
-      <div class="skills-section">
-        <div class="skills-icon">
-          <img src="./assets/skills/icons8-habilidad-de-brainstorm-50.png" alt="complements"></img>
+        <div class="carousel-item">
+          <div class="text-white text-center">
+            <h3>Plus</h3>
+          </div>
+          <img
+            src="./assets/skills/icons8-habilidad-de-brainstorm-50.png"
+            class="d-block mx-auto my-3"
+            style="width: 50px"
+            alt="..."
+          />
+          <div class="text-white text-center">
+            <p>Art lover</p>
+            <p>Adventurous traveler</p>
+            <p>English</p>
+          </div>
         </div>
-        <h3>Plus</h3>
-        <p>Art lover</p>
-        <p>Adventurous traveler</p>
-        <p>English</p>
       </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-
     <!-- links -->
-    <h2 id="links">links</h2>
-    <div class="links-container">
-      <div class="links-section">
-        <div class="link-bubble1">
-          <h3>resume</h3>
-          <img src="./assets/links/icons8-abrir-currículum-50.png" alt="resume" />
-          <a href="./assets/cv/zayra velasco-full stack-english-cv.pdf" download="Zayra Velasco-Full Stack.pdf">
-            <p>english</p>
+    <h2 class="mx-4 display-1 text-secondary" id="links">links</h2>
+    <div class="card-group">
+      <div class="card text-white bg-dark mb-3">
+        <img
+          src="./assets/links/icons8-abrir-currículum-50.png"
+          class="card-img-top mx-auto"
+          style="width: 50px"
+          alt="..."
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">Resume</h5>
+          <a
+            class="link-secondary"
+            href="./assets/cv/zayra velasco-full stack-english-cv.pdf"
+            download="Zayra Velasco-Full Stack.pdf"
+          >
+            <p class="card-text">English</p>
           </a>
-          <a href="./assets/cv/zayra velasco-full stack-spanish-cv.pdf" download="Zayra Velasco-Full Stack.pdf">
-            <p>spanish</p>
+          <a
+            class="link-secondary"
+            href="./assets/cv/zayra velasco-full stack-spanish-cv.pdf"
+            download="Zayra Velasco-Full Stack.pdf"
+          >
+            <p class="card-text">Spanish</p>
           </a>
         </div>
       </div>
-      <div class="links-section-side">
-        <div class="link-bubble2">
-          <h3>gitHub</h3> <a href="https://github.com/zayrarepositor" target="_blank"><img
-              src="./assets/links/icons8-github-2-50.png" alt="GitHub" /></a>
+      <div class="card text-white bg-dark mb-3">
+        <img
+          src="./assets/links/icons8-github-50.png"
+          class="card-img-top mx-auto"
+          style="width: 50px"
+          alt="..."
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">GitHub</h5>
+          <a
+            class="link-secondary"
+            href="https://github.com/zayrarepositor"
+            target="_blank"
+          >
+            <p class="card-text">Link</p></a
+          >
         </div>
-        <div class="link-bubble3">
-          <h3>linkedIn</h3>
-          <a href="https://www.linkedin.com/in/zayra-velasco" target="_blank"><img
-              src="./assets/links/icons8-linkedin-50.png" alt="linkedIn" /></a>
+      </div>
+      <div class="card text-white bg-dark mb-3">
+        <img
+          src="./assets/cert/henry.png"
+          class="card-img-top mx-auto"
+          style="width: 50px"
+          alt="..."
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">Henry certification</h5>
+          <a
+            class="link-secondary"
+            href="./assets/cert/henry.pdf"
+            download="Zayra Velasco-Henry cert.pdf"
+          >
+            <p class="card-text">Full Stack Developer</p>
+          </a>
         </div>
       </div>
     </div>
-
+    <div class="card-group">
+      <div class="card text-white bg-dark mb-3">
+        <img
+          src="./assets/cert/alkemy.png"
+          class="card-img-top mx-auto"
+          style="width: 50px"
+          alt="..."
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">Alkemy certification</h5>
+          <a
+            class="link-secondary"
+            href="./assets/cert/alkemy.pdf"
+            download="Zayra Velasco-Alkemy cert.pdf"
+          >
+            <p class="card-text">NodeJS</p></a
+          >
+        </div>
+      </div>
+      <div class="card text-white bg-dark mb-3">
+        <img
+          src="./assets/cert/google.png"
+          class="card-img-top mx-auto"
+          style="width: 50px"
+          alt="..."
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">Google certification</h5>
+          <a
+            class="link-secondary"
+            href="./assets/cert/google.pdf"
+            download="Zayra Velasco-Google cert.pdf"
+          >
+            <p class="card-text">Digital Skills</p></a
+          >
+        </div>
+      </div>
+      <div class="card text-white bg-dark mb-3">
+        <img
+          src="./assets/cert/efset.png"
+          class="card-img-top mx-auto"
+          style="width: 50px"
+          alt="..."
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">EF Set certification</h5>
+          <a
+            class="link-secondary"
+            href="./assets/cert/efset.pdf"
+            download="Zayra Velasco-EF Set cert.pdf"
+          >
+            <p class="card-text">C1 Level</p></a
+          >
+        </div>
+      </div>
+    </div>
     <!-- projects -->
-    <h2 id="projects">projects</h2>
-    <!-- patients register -->
-    <div class="projects-section">
-      <h3>patients register</h3>
-      <figure><img id="budget2" src="./assets/projects/icons8-plan-de-tratamiento-50.png" alt="register" />
-        <figcaption>Frontend project with Vite and Tailwindcss</figcaption>
-        <a href="https://dazzling-zabaione-933dc1.netlify.app/" target="_blank">
-          <p>Web demo</p>
-        </a><a href="https://github.com/zayrarepositor/patients-register-2022" target="_blank">
-          <p>GitHub repo</p>
-        </a>
-      </figure>
-    </div>
-
-    <!-- budget app -->
-    <div class="projects-section">
-      <h3>budget app</h3>
-      <figure><img id="budget2" src="./assets/projects/icons8-vista-frontal-del-monedero-50.png" alt="budget" />
-        <figcaption>Frontend project with Vite, CSS and Auth0 login</figcaption>
-        <a href="https://rad-pothos-ce687f.netlify.app" target="_blank">
-          <p>Web demo</p>
-        </a><a href="https://github.com/zayrarepositor/budget-app-2022" target="_blank">
-          <p>GitHub repo</p>
-        </a>
-      </figure>
-    </div>
-    <!-- pokemons -->
-    <div class="projects-section">
-      <h3>pokemons app</h3>
-      <figure><img id="budget2" src="./assets/projects/icons8-pokeball-50.png" alt="pokemons" />
-        <figcaption>Frontend with React, Redux and CSS for Henry Bootcamp's Individual project</figcaption>
-        <a href="https://pokemons-app-2022.vercel.app/" target="_blank">
-          <p>Web demo</p>
-        </a><a href="https://github.com/zayrarepositor/pokemons-app-2022" target="_blank">
-          <p>GitHub repo</p>
-        </a>
-      </figure>
-    </div>
-    <!-- henry match -->
-    <div class="projects-section">
-      <h3>henry match</h3>
-      <figure><img id="budget2" src="./assets/projects/icons8-cohete-50.png" alt="henrymatch" />
-        <figcaption>Frontend with Vite, Material UI, Auth0, Nodemailer, Talkjs and React Tinder Card for Henry
-          Bootcamp's Final Project</figcaption>
-        <a href="https://henry-front.vercel.app/" target="_blank">
-          <p>Web demo</p>
-        </a><a href="https://github.com/zayrarepositor/HenryMatchPF" target="_blank">
-          <p>GitHub repo</p>
-        </a>
-      </figure>
-    </div>
-
-    <!-- disney api -->
-    <div class="projects-section">
-      <h3>disney api</h3>
-      <figure><img id="budget2" src="./assets/projects/icons8-películas-disney-50.png" alt="disney" />
-        <figcaption>Backend project with Node, Express, Sequelize, Nodemailer and JWT for Alkemy challenge
-        </figcaption>
-        <a href="https://disney-2022.herokuapp.com/" target="_blank">
-          <p>Web demo</p>
-        </a><a href="https://github.com/zayrarepositor/disney-api" target="_blank">
-          <p>GitHub repo</p>
-        </a>
-      </figure>
-
-    </div>
-    <!-- astro app -->
-    <div class="projects-section">
-      <h3>astro app</h3>
-      <figure><img id="budget2" src="./assets/projects/icons8-telescopio-50.png" alt="astro" />
-        <figcaption>Frontend project with Vite and Styled components</figcaption>
-        <a href="https://astro-api-2022.vercel.app/" target="_blank">
-          <p>Web demo</p>
-        </a><a href="https://github.com/zayrarepositor/astro-api-2022" target="_blank">
-          <p>GitHub repo</p>
-        </a>
-      </figure>
+    <h2 class="mx-4 display-1 text-secondary" id="projects">projects</h2>
+    <div class="container">
+      <div class="card-group">
+        <div class="row">
+          <!-- patients register -->
+          <div class="col-6 col-md-3">
+            <div class="card text-white bg-dark text-center">
+              <img
+                id="register"
+                src="./assets/projects/icons8-plan-de-tratamiento-50.png"
+                alt="register"
+                class="card-img-top mx-auto"
+                style="max-width: 50px"
+              />
+              <div class="card-body">
+                <h3 class="card-title">patients register</h3>
+                <p class="card-text">
+                  Frontend project with Vite and Tailwindcss
+                </p>
+                <a
+                  type="button"
+                  class="btn btn-secondary m-2"
+                  href="https://dazzling-zabaione-933dc1.netlify.app/"
+                  target="_blank"
+                >
+                  Web demo</a
+                ><a
+                  type="button"
+                  class="btn btn-secondary"
+                  href="https://github.com/zayrarepositor/patients-register-2022"
+                  target="_blank"
+                >
+                  GitHub repo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- budget app -->
+          <div class="col-6 col-md-3">
+            <div class="card text-white bg-dark text-center">
+              <img
+                id="budget"
+                src="./assets/projects/icons8-vista-frontal-del-monedero-50.png"
+                alt="budget"
+                class="card-img-top mx-auto"
+                style="max-width: 50px"
+              />
+              <div class="card-body">
+                <h3 class="card-title">budget app</h3>
+                <p class="card-text">
+                  Frontend project with Vite, CSS and Auth0 login
+                </p>
+                <a
+                  type="button"
+                  class="btn btn-secondary m-2"
+                  href="https://rad-pothos-ce687f.netlify.app"
+                  target="_blank"
+                >
+                  Web demo</a
+                ><a
+                  type="button"
+                  class="btn btn-secondary"
+                  href="https://github.com/zayrarepositor/budget-app-2022"
+                  target="_blank"
+                >
+                  GitHub repo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- pokemons -->
+          <div class="col-6 col-md-3">
+            <div class="card text-white bg-dark text-center">
+              <img
+                id="pokemons"
+                src="./assets/projects/icons8-pokeball-50.png"
+                alt="pokemons"
+                class="card-img-top mx-auto"
+                style="max-width: 50px"
+              />
+              <div class="card-body">
+                <h3 class="card-title">pokemons app</h3>
+                <p class="card-text">
+                  Full stack project: Frontend with React, Redux and CSS
+                </p>
+                <a
+                  type="button"
+                  class="btn btn-secondary m-2"
+                  href="https://pokemons-app-2022.vercel.app/"
+                  target="_blank"
+                >
+                  Web demo</a
+                ><a
+                  type="button"
+                  class="btn btn-secondary"
+                  href="https://github.com/zayrarepositor/pokemons-app-2022"
+                  target="_blank"
+                >
+                  GitHub repo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- henry match -->
+          <div class="col-6 col-md-3">
+            <div class="card text-white bg-dark text-center">
+              <img
+                id="henrymatch"
+                src="./assets/projects/icons8-cohete-50.png"
+                alt="henrymatch"
+                class="card-img-top mx-auto"
+                style="max-width: 50px"
+              />
+              <div class="card-body">
+                <h3 class="card-title">henry match</h3>
+                <p class="card-text">
+                  Full stack project: Frontend with Vite, Material UI, Auth0,
+                  Nodemailer, Talkjs and React Tinder Card
+                </p>
+                <a
+                  type="button"
+                  class="btn btn-secondary m-2"
+                  href="https://henry-front.vercel.app/"
+                  target="_blank"
+                >
+                  Web demo</a
+                ><a
+                  type="button"
+                  class="btn btn-secondary"
+                  href="https://github.com/zayrarepositor/HenryMatchPF"
+                  target="_blank"
+                >
+                  GitHub repo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- disney api -->
+          <div class="col-6 col-md-3">
+            <div class="card text-white bg-dark text-center">
+              <img
+                id="disney"
+                src="./assets/projects/icons8-películas-disney-50.png"
+                alt="disney"
+                class="card-img-top mx-auto"
+                style="max-width: 50px"
+              />
+              <div class="card-body">
+                <h3 class="card-title">disney api</h3>
+                <p class="card-text">
+                  Backend project with Node, Express, Sequelize, Nodemailer and
+                  JWT
+                </p>
+                <a
+                  type="button"
+                  class="btn btn-secondary m-2"
+                  href="https://disney-2022.herokuapp.com/"
+                  target="_blank"
+                >
+                  Web demo</a
+                ><a
+                  type="button"
+                  class="btn btn-secondary"
+                  href="https://github.com/zayrarepositor/disney-api"
+                  target="_blank"
+                >
+                  GitHub repo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- astro app -->
+          <div class="col-6 col-md-3">
+            <div class="card text-white bg-dark text-center">
+              <img
+                id="astro"
+                src="./assets/projects/icons8-telescopio-50.png"
+                alt="astro"
+                class="card-img-top mx-auto"
+                style="max-width: 50px"
+              />
+              <div class="card-body">
+                <h3 class="card-title">astro app</h3>
+                <p class="card-text">
+                  Backend project with Node, Express, Sequelize, Nodemailer and
+                  JWT for Alkemy challenge
+                </p>
+                <a
+                  type="button"
+                  class="btn btn-secondary m-2"
+                  href="https://astro-api-2022.vercel.app/"
+                  target="_blank"
+                >
+                  Web demo</a
+                ><a
+                  type="button"
+                  class="btn btn-secondary"
+                  href="https://github.com/zayrarepositor/astro-api-2022"
+                  target="_blank"
+                >
+                  GitHub repo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- GATIEN SALAUN AGENTS -->
+          <div class="col-6 col-md-3">
+            <div class="card text-white bg-dark text-center">
+              <img
+                id="gatien-salaun"
+                src="./assets/projects/icons8-intercambio-de-claves-50.png"
+                alt="gatien-salaun"
+                class="card-img-top mx-auto"
+                style="max-width: 50px"
+              />
+              <div class="card-body">
+                <h3 class="card-title">gatien salaun agents</h3>
+                <p class="card-text">Design challenge with WIX</p>
+                <a
+                  type="button"
+                  class="btn btn-secondary m-2"
+                  href="https://gatienmiami.wixsite.com/gatien-salaun"
+                  target="_blank"
+                >
+                  Web demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- bsale -->
+          <div class="col-6 col-md-3">
+            <div class="card text-white bg-dark text-center">
+              <img
+                id="bsale"
+                src="./assets/projects/icons8-caja-registradora-50.png"
+                alt="bsale"
+                class="card-img-top mx-auto"
+                style="max-width: 50px"
+              />
+              <div class="card-body">
+                <h3 class="card-title">bsale store</h3>
+                <p class="card-text">
+                  Full stack challenge with NodeJS and VanillaJS
+                </p>
+                <a
+                  type="button"
+                  class="btn btn-secondary m-2"
+                  href="https://storebsale.netlify.app/"
+                  target="_blank"
+                >
+                  Web demo</a
+                >
+                <a
+                  type="button"
+                  class="btn btn-secondary m-2"
+                  href="https://bsale-server.up.railway.app/"
+                  target="_blank"
+                >
+                  Backend server</a
+                >
+                <a
+                  type="button"
+                  class="btn btn-secondary m-2"
+                  href="https://github.com/zayrarepositor/bsale-front"
+                  target="_blank"
+                >
+                  GitHub repo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- contact -->
-    <h2 id="contact"> contact</h2>
-    <div class="contact-container">
-      <a href="mailto:zayra.contacto@gmail.com" target="_blank">
+    <h2 id="contact" class="mx-4 display-1 text-secondary">contact</h2>
+    <div class="text-center">
+      <p class="px-4">I'm available for freelance work.</p>
+      <p class="px-4">Drop me a line if you fancy a chat.</p>
+      <a
+        class="link-secondary"
+        href="mailto:zayra.contacto@gmail.com"
+        target="_blank"
+      >
         <h3>zayra.contacto@gmail.com</h3>
       </a>
     </div>
 
     <!-- recomendations -->
-    <h2 id="recomendations"> recomendations</h2>
-    <div class="recomendations-container">
-      <ul>
-        <!--         juanjo -->
-        <li>
-          <div class="recomendation-section">
-            <figure>
-              <img
-                src="https://media-exp1.licdn.com/dms/image/C4E03AQGnMmOsg-vlFQ/profile-displayphoto-shrink_100_100/0/1623244089326?e=1666224000&amp;v=beta&amp;t=CbR1CUDhEWl1wbRt3G7VNv-b_Js-tE_Yu-kDgqRaN58"
-                loading="lazy" alt="Juanjo Chiliutti" id="ember482" width="48" height="48">
-              <a target="_blank" href="https://www.linkedin.com/in/juanjochiliutti">
-                <figcaption>Juanjo Chiliutti</figcaption>
-              </a>
-            </figure>
-
-            <p aria-hidden="true">
-              Con Zayra compartimos muchas horas de trabajo para desarrollar nuestro trabajo
-              final
-              en Henry. Sin dudas fue un pilar fundamental, alentando a sus compañeros, colaborando de
-              forma desinteresada y trabajando sin parar por horas. Su compromiso y responsabilidad
-              son
-              los estandartes que puede llevar a donde le toque estar.
-
-            </p>
+    <h2 class="mx-4 display-1 text-secondary" id="recomendations">
+      recomendations
+    </h2>
+    <div class="text-center p-0 mb-5 mx-4">
+      <div class="col-md-6 mx-auto">
+        <div
+          class="accordion text-white link-secondary"
+          id="accordionRecomendations"
+        >
+          <!--         juanjo -->
+          <div class="accordion-item bg-dark">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Juanjo Chiliutti
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionRecomendations"
+            >
+              <div class="accordion-body">
+                Con <strong>Zayra</strong> compartimos muchas horas de trabajo
+                para desarrollar nuestro trabajo final en Henry. Sin dudas fue
+                un pilar fundamental, alentando a sus compañeros, colaborando de
+                forma desinteresada y trabajando sin parar por horas. Su
+                compromiso y responsabilidad son los estandartes que puede
+                llevar a donde le toque estar.
+                <p>
+                  <a
+                    class="link-secondary"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/juanjochiliutti"
+                    >Juanjo LinkedIn
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
-        </li>
-        <!-- martu -->
-        <li>
-          <div class="recomendation-section">
-            <figure>
-              <img
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQFqnd9STSPUOg/profile-displayphoto-shrink_100_100/0/1643250785620?e=1666224000&amp;v=beta&amp;t=3uvHoccCbtIiNfuG40MRSBP6m6gaQNfb-ezjQUqCOMk"
-                loading="lazy" alt="Martina Ortiz Novero profile picture" width="48" height="48">
-              <a target="_blank" href="https://www.linkedin.com/in/martina-ortiznovero">
-                <figcaption>Martina Ortiz Novero</figcaption>
-              </a>
-            </figure>
-
-            <p aria-hidden="true">
-              <!---->Me toco trabajar con Zayra en el proyecto final del Bootcamp de Henry, fue una
-              gran
-              experiencia haber estado en el mismo grupo con ella y poder compartir muchas horas
-              codiando.
-              Es una persona muy determinante y con muchísimo conocimiento de la que puede aprender,
-              sabe
-              como encarar los conflictos que se presentan hasta llegar a una solución segura. Se que
-              es
-              muy capaz de enfrentar cualquier desafío que se le presente.
-              <!---->
-            </p>
+          <!-- martu -->
+          <div class="accordion-item bg-dark">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Martina Ortiz Novero
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionRecomendations"
+            >
+              <div class="accordion-body">
+                Me toco trabajar con <strong>Zayra </strong> en el proyecto
+                final del Bootcamp de Henry, fue una gran experiencia haber
+                estado en el mismo grupo con ella y poder compartir muchas horas
+                codiando. Es una persona muy determinante y con muchísimo
+                conocimiento de la que puede aprender, sabe como encarar los
+                conflictos que se presentan hasta llegar a una solución segura.
+                Se que es muy capaz de enfrentar cualquier desafío que se le
+                presente.
+                <p>
+                  <a
+                    class="link-secondary"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/martina-ortiznovero"
+                  >
+                    Martina Ortiz Novero LinkedIn
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
-        </li>
-        <!-- romi -->
-        <li>
-          <div class="recomendation-section">
-            <figure>
-              <img
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQEq5TdTE8osXQ/profile-displayphoto-shrink_100_100/0/1658186067461?e=1666224000&amp;v=beta&amp;t=T0KfbIv8WOY-YYZ9qIOvkx--Y6lKAzID9r6x6NkLdGE"
-                loading="lazy" alt="Romina Valdez profile picture" id="ember488"
-                class="ivm-view-attr__img--centered EntityPhoto-circle-3  lazy-image ember-view" width="48" height="48">
-              <a class="optional-action-target-wrapper 
-                                          display-flex flex-column full-width" target="_self"
-                href="https://www.linkedin.com/in/romina-valdez">
-                <figcaption>Romina Valdez</figcaption>
-              </a>
-            </figure>
-            <p aria-hidden="true">
-              We worked on the Final Project of Herny Bootcamp and it was a super enriching
-              experience! Zayra is a proactive person who is constantly seeking to acquire new
-              knowledge,
-              she is collaborative and showed great leadership and determination. It was a pleasure
-              working with her!
-            </p>
+          <!-- romi -->
+          <div class="accordion-item bg-dark">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Romina Valdez
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionRecomendations"
+            >
+              <div class="accordion-body">
+                We worked on the Final Project of Herny Bootcamp and it was a
+                super enriching experience! <strong>Zayra</strong> is a
+                proactive person who is constantly seeking to acquire new
+                knowledge, she is collaborative and showed great leadership and
+                determination. It was a pleasure working with her!
+                <p>
+                  <a
+                    class="link-secondary"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/romina-valdez"
+                  >
+                    Romina Valdez LinkedIn
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
-        </li>
-        <!-- pablo -->
-        <li>
-          <div class="recomendation-section">
-            <figure>
-              <img
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQHncoIJ1I1vSQ/profile-displayphoto-shrink_100_100/0/1652146215284?e=1666224000&amp;v=beta&amp;t=X3dM2_Cs1SKenSiPJnvsdRfiU6OWMoYNn6nNuyHRwUU"
-                loading="lazy" alt="Pablo Carranza" width="48" height="48">
-              <a target="_blank" href="https://www.linkedin.com/in/pabloecarranza">
-                <figcaption>Pablo Carranza</figcaption>
-              </a>
-            </figure>
-            <p>
-              Tuve la oportunidad de trabajar con Zayra, sin dudas una excelente compañera, muy
-              colaborativa y resolutiva con mucha capacidad de liderazgo y adaptacion. Siempre
-              predispuesta al trabajo en grupo y a la mejora constante.
-            </p>
+          <!-- pablo -->
+          <div class="accordion-item bg-dark">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Pablo Carranza
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionRecomendations"
+            >
+              <div class="accordion-body">
+                Tuve la oportunidad de trabajar con <strong> Zayra</strong>, sin
+                dudas una excelente compañera, muy colaborativa y resolutiva con
+                mucha capacidad de liderazgo y adaptacion. Siempre predispuesta
+                al trabajo en grupo y a la mejora constante.
+                <p>
+                  <a
+                    class="link-secondary"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/pabloecarranza"
+                  >
+                    Pablo Carranza LinkedIn
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
-        </li>
-        <!-- albert -->
-        <!-- <li>
-          <div class="recomendation-section">
-            <figure>
-              <img
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQEqVGf8tb3atA/profile-displayphoto-shrink_100_100/0/1658171768578?e=1666224000&amp;v=beta&amp;t=acZfCt6QkSlWxt1G_SPOlnulKbtE37hByioXrnNY3NI"
-                loading="lazy" alt="Alberto Giuseppe 💻📲 profile picture" id="ember494"
-                class="ivm-view-attr__img--centered EntityPhoto-circle-3  lazy-image ember-view" width="48" height="48">
-              <a class="optional-action-target-wrapper 
-                          display-flex flex-column full-width" target="_self"
-                href="https://www.linkedin.com/in/giu-dev">
-                <figcaption>Alberto Giuseppe</figcaption>
-              </a>
-            </figure>
-            <p aria-hidden="true">
-              Excelente compañera de trabajo, me gusta mucho trabajar con ella ya que tiene las
-              ideas claras me gusta la dedicacion que le mete a la hora de codear y sacar alguna
-              funcionabilidad, al trabajar con ella note cualidades de liderazgo, empatia y excelente toma de
-              decisiones.
-            </p>
+          <!-- albert -->
+          <div class="accordion-item bg-dark">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                Alberto Giuseppe
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFive"
+              data-bs-parent="#accordionRecomendations"
+            >
+              <div class="accordion-body">
+                Excelente compañera de trabajo, me gusta mucho trabajar con ella
+                ya que tiene las ideas claras me gusta la dedicacion que le mete
+                a la hora de codear y sacar alguna funcionabilidad, al trabajar
+                con ella note cualidades de liderazgo, empatia y excelente toma
+                de decisiones.
+                <p>
+                  <a
+                    class="link-secondary"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/giu-dev"
+                  >
+                    Alberto Giuseppe LinkedIn
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
-        </li> -->
-      </ul>
+        </div>
+      </div>
     </div>
 
     <!-- footer -->
-    <footer>
+    <footer class="row">
+      <nav class="nav flex-row-reverse">
+        <a
+          class="nav-link link-secondary"
+          href="https://www.linkedin.com/in/zayra-velasco/"
+          target="_blank"
+        >
+          <img
+            style="width: 40px"
+            src="./assets/links/icons8-linkedin-50.png"
+          />
+        </a>
 
-      <div class="footer-container">
-        <div class="footer-sections">
-          <ul>
-            <li>
-              <a href="index.html">Inicio</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#links">Links</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-            <li>
-              <a href="#recomendations">Recomendations</a>
-            </li>
+        <a
+          class="nav-link link-secondary"
+          href="https://github.com/zayrarepositor"
+          target="_blank"
+        >
+          <img style="width: 40px" src="./assets/links/icons8-github-50.png" />
+        </a>
 
-            </nav>
-        </div>
+        <a
+          class="nav-link link-secondary"
+          href="mailto:zayra.contacto@gmail.com"
+          target="_blank"
+        >
+          <img
+            style="width: 40px"
+            src="./assets/links/icons8-añadir-sobre-abierto-50.png"
+          />
+        </a>
+      </nav>
 
-        <div class="footer-icons">
-          <ul class="footer-ul">
+      <nav class="nav flex-column ms-4">
+        <a class="nav-link link-secondary" href="#home">Inicio</a>
 
-            <li>
-              <a href="https://www.linkedin.com/in/zayra-velasco/" target="_blank">
-                <img src="./assets/links/icons8-linkedin-50.png" />
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/zayrarepositor" target="_blank">
-                <img src="./assets/links/icons8-github-2-50.png" />
-              </a>
-            </li>
-            <li>
-              <a href="mailto:zayra.contacto@gmail.com" target="_blank">
-                <img src="./assets/links/icons8-gmail-50.png" />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-line"><img
-            src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3500&pause=200&color=1f0707cc&center=true&width=535&lines=Dream+as+if;you'll+live+forever;Live+as+if;you'll+die+today"
-            alt="Typing SVG" /></div>
+        <a class="nav-link link-secondary" href="#about">About</a>
+
+        <li>
+          <a class="nav-link link-secondary" href="#skills">Skills</a>
+
+          <a class="nav-link link-secondary" href="#links">Links</a>
+
+          <a class="nav-link link-secondary" href="#projects">Projects</a>
+
+          <a class="nav-link link-secondary" href="#contact">Contact</a>
+
+          <a class="nav-link link-secondary" href="#recomendations"
+            >Recomendations</a
+          >
+        </li>
+      </nav>
+
+      <div class="container-fluid my-5">
+        <img
+          class="w-100"
+          src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3500&pause=200&color=ffffcc&center=true&width=535&lines=Dream+as+if;you'll+live+forever;Live+as+if;you'll+die+today"
+          alt="Typing SVG"
+        />
       </div>
     </footer>
 
-  </div>
-</body>
-
-
+    <!-- bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
