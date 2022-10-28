@@ -42,54 +42,55 @@
             style="height: 130px"
             alt="..."
           />
+          <!-- navbar -->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 fs-5">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="bi bi-chevron-bar-down"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="#home" class="nav-link active" aria-current="page"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#links">Links</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#recomendations">Recomendations</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
       </div>
-      <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="bi bi-chevron-bar-down"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a href="#home" class="nav-link active" aria-current="page"
-                >Inicio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#links">Links</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#recomendations">Recomendations</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+
       <!-- Zayra Velasco -->
       <h1 class="mx-4 display-1 text-secondary">Zayra Velasco</h1>
       <div class="row d-flex align-items-center bg-dark text-center mx-2">
         <div class="col-4">
-          <h5>Software developer</h5>
+          <h4>Software developer</h4>
         </div>
         <div class="col-4">
           <img
@@ -100,7 +101,7 @@
           />
         </div>
         <div class="col-4">
-          <h5>Admin Manager</h5>
+          <h4>Admin Manager</h4>
         </div>
       </div>
     </header>
@@ -122,98 +123,110 @@
     >
       <div class="row">
         <div class="col-12 col-md-8 px-3">
-          <h6 class="mb-3">
+          <h6 class="mb-3 mw-100 mx-auto fs-5" style="width: 500px">
             As Developer I have participated in group projects (SCRUM
             methodology) as a full MERN stack.
           </h6>
-          <h6 class="mb-3">
+          <h6 class="mb-3 mw-100 mx-auto fs-5" style="width: 500px">
             As Admin Manager I have more than 15 years of work experience
             leading groups or personal projects, always in customer-focused
             areas.
           </h6>
         </div>
         <div class="col-12 col-md-4 px-3">
-          <h5 class="mb-3">Favorites</h5>
-          <p>coding + music + health readings + arts shocks + yoga</p>
+          <h4 class="mb-3 text-secondary">Favorites</h4>
+          <img
+            class="w-100"
+            src="https://readme-typing-svg.herokuapp.com?font=courier+new+bold&size=28&duration=3500&pause=200&color=ffff&center=true&width=535&lines=coding; music; health readings; arts shocks; yoga"
+            alt="Typing SVG"
+          />
         </div>
       </div>
     </div>
     <!-- skills -->
     <h2 class="mx-4 display-1 text-secondary" id="skills">skills</h2>
-    <div id="skillsCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="text-white text-center">
-            <h5>Softs</h5>
+    <div class="container-fluid text-center">
+      <div
+        id="skillsCarousel"
+        class="carousel slide mx-auto mw-100"
+        style="width: 1000px"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="text-white text-center">
+              <h5>Softs</h5>
+            </div>
+            <img
+              src="./assets/skills/icons8-red-de-negocios-50.png"
+              class="d-block mx-auto my-3"
+              style="width: 50px"
+              alt="..."
+            />
+            <div class="text-white text-center">
+              <p>Logical thinking</p>
+              <p>Effective communication</p>
+              <p>Continuous learning</p>
+            </div>
           </div>
-          <img
-            src="./assets/skills/icons8-red-de-negocios-50.png"
-            class="d-block mx-auto my-3"
-            style="width: 50px"
-            alt="..."
-          />
-          <div class="text-white text-center">
-            <p>Logical thinking</p>
-            <p>Effective communication</p>
-            <p>Continuous learning</p>
+          <div class="carousel-item">
+            <div class="text-white text-center">
+              <h3>Techs</h3>
+            </div>
+            <img
+              src="./assets/skills/icons8-javascript-50.png"
+              class="d-block mx-auto my-3"
+              style="width: 50px"
+              alt="..."
+            />
+            <div class="text-white text-center">
+              <p>JavaScript</p>
+              <p>NodeJS</p>
+              <p>React</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="text-white text-center">
+              <h3>Plus</h3>
+            </div>
+            <img
+              src="./assets/skills/icons8-habilidad-de-brainstorm-50.png"
+              class="d-block mx-auto my-3"
+              style="width: 50px"
+              alt="..."
+            />
+            <div class="text-white text-center">
+              <p>Art lover</p>
+              <p>Adventurous traveler</p>
+              <p>English</p>
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="text-white text-center">
-            <h3>Techs</h3>
-          </div>
-          <img
-            src="./assets/skills/icons8-javascript-50.png"
-            class="d-block mx-auto my-3"
-            style="width: 50px"
-            alt="..."
-          />
-          <div class="text-white text-center">
-            <p>JavaScript</p>
-            <p>NodeJS</p>
-            <p>React</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="text-white text-center">
-            <h3>Plus</h3>
-          </div>
-          <img
-            src="./assets/skills/icons8-habilidad-de-brainstorm-50.png"
-            class="d-block mx-auto my-3"
-            style="width: 50px"
-            alt="..."
-          />
-          <div class="text-white text-center">
-            <p>Art lover</p>
-            <p>Adventurous traveler</p>
-            <p>English</p>
-          </div>
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+
     <!-- links -->
     <h2 class="mx-4 display-1 text-secondary" id="links">links</h2>
     <div class="card-group">
-      <div class="card text-white bg-dark mb-3">
+      <div class="card text-white bg-dark mb-3 border-0">
         <img
           src="./assets/links/icons8-abrir-currículum-50.png"
           class="card-img-top mx-auto"
@@ -238,7 +251,7 @@
           </a>
         </div>
       </div>
-      <div class="card text-white bg-dark mb-3">
+      <div class="card text-white bg-dark mb-3 border-0">
         <img
           src="./assets/links/icons8-github-50.png"
           class="card-img-top mx-auto"
@@ -256,7 +269,7 @@
           >
         </div>
       </div>
-      <div class="card text-white bg-dark mb-3">
+      <div class="card text-white bg-dark mb-3 border-0">
         <img
           src="./assets/cert/henry.png"
           class="card-img-top mx-auto"
@@ -276,7 +289,7 @@
       </div>
     </div>
     <div class="card-group">
-      <div class="card text-white bg-dark mb-3">
+      <div class="card text-white bg-dark mb-3 border-0">
         <img
           src="./assets/cert/alkemy.png"
           class="card-img-top mx-auto"
@@ -294,7 +307,7 @@
           >
         </div>
       </div>
-      <div class="card text-white bg-dark mb-3">
+      <div class="card text-white bg-dark mb-3 border-0">
         <img
           src="./assets/cert/google.png"
           class="card-img-top mx-auto"
@@ -312,7 +325,7 @@
           >
         </div>
       </div>
-      <div class="card text-white bg-dark mb-3">
+      <div class="card text-white bg-dark mb-3 border-0">
         <img
           src="./assets/cert/efset.png"
           class="card-img-top mx-auto"
@@ -338,7 +351,7 @@
         <div class="row">
           <!-- patients register -->
           <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center">
+            <div class="card text-white bg-dark text-center border-0">
               <img
                 id="register"
                 src="./assets/projects/icons8-plan-de-tratamiento-50.png"
@@ -371,7 +384,7 @@
           </div>
           <!-- budget app -->
           <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center">
+            <div class="card text-white bg-dark text-center border-0">
               <img
                 id="budget"
                 src="./assets/projects/icons8-vista-frontal-del-monedero-50.png"
@@ -404,7 +417,7 @@
           </div>
           <!-- pokemons -->
           <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center">
+            <div class="card text-white bg-dark text-center border-0">
               <img
                 id="pokemons"
                 src="./assets/projects/icons8-pokeball-50.png"
@@ -437,7 +450,7 @@
           </div>
           <!-- henry match -->
           <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center">
+            <div class="card text-white bg-dark text-center border-0">
               <img
                 id="henrymatch"
                 src="./assets/projects/icons8-cohete-50.png"
@@ -471,7 +484,7 @@
           </div>
           <!-- disney api -->
           <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center">
+            <div class="card text-white bg-dark text-center border-0">
               <img
                 id="disney"
                 src="./assets/projects/icons8-películas-disney-50.png"
@@ -505,7 +518,7 @@
           </div>
           <!-- astro app -->
           <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center">
+            <div class="card text-white bg-dark text-center border-0">
               <img
                 id="astro"
                 src="./assets/projects/icons8-telescopio-50.png"
@@ -517,7 +530,7 @@
                 <h3 class="card-title">astro app</h3>
                 <p class="card-text">
                   Backend project with Node, Express, Sequelize, Nodemailer and
-                  JWT for Alkemy challenge
+                  JWT
                 </p>
                 <a
                   type="button"
@@ -539,7 +552,7 @@
           </div>
           <!-- GATIEN SALAUN AGENTS -->
           <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center">
+            <div class="card text-white bg-dark text-center border-0">
               <img
                 id="gatien-salaun"
                 src="./assets/projects/icons8-intercambio-de-claves-50.png"
@@ -563,7 +576,7 @@
           </div>
           <!-- bsale -->
           <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center">
+            <div class="card text-white bg-dark text-center border-0">
               <img
                 id="bsale"
                 src="./assets/projects/icons8-caja-registradora-50.png"
@@ -596,6 +609,33 @@
                   type="button"
                   class="btn btn-secondary m-2"
                   href="https://github.com/zayrarepositor/bsale-front"
+                  target="_blank"
+                >
+                  GitHub repo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- OT267 server -->
+          <div class="col-6 col-md-3">
+            <div class="card text-white bg-dark text-center border-0">
+              <img
+                id="OT267"
+                src="./assets/projects/icons8-planeta-tierra-50.png"
+                alt="OT267"
+                class="card-img-top mx-auto"
+                style="max-width: 50px"
+              />
+              <div class="card-body">
+                <h3 class="card-title">OT267 server</h3>
+                <p class="card-text">
+                  Backend project with NodeJS, Sequelize, JWT, AWS, Sendgrid
+                  Mercado Pago SDK, Swagger, Mocha-Chai
+                </p>
+                <a
+                  type="button"
+                  class="btn btn-secondary m-2"
+                  href="https://github.com/zayrarepositor/OT267-server"
                   target="_blank"
                 >
                   GitHub repo
@@ -881,10 +921,9 @@
         </li>
       </nav>
 
-      <div class="container-fluid my-5">
+      <div class="container-fluid my-5 text-center">
         <img
-          class="w-100"
-          src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3500&pause=200&color=ffffcc&center=true&width=535&lines=Dream+as+if;you'll+live+forever;Live+as+if;you'll+die+today"
+          src="https://readme-typing-svg.herokuapp.com?font=courier+new+bold&size=30&duration=3500&pause=200&color=fff&center=true&width=360&lines=Dream+as+if;you'll+live+forever;Live+as+if;you'll+die+today"
           alt="Typing SVG"
         />
       </div>
