@@ -11,10 +11,7 @@
 ☞ <a href="https://zayra-velasco-developer.netlify.app/">https://zayra-velasco-developer.netlify.app/</a>
 
 ## Snips
-☢ You could check out some snips here: 
 
-![4](https://user-images.githubusercontent.com/95602965/185551273-704937eb-1973-4d35-8ef3-e313be00cd90.png)
-![2](https://user-images.githubusercontent.com/95602965/185551271-016697ab-978c-442f-a249-89c615eeb6fa.png)
-![3](https://user-images.githubusercontent.com/95602965/185551272-576e7bc2-23a7-4725-8367-153c4470f78d.png)
+![imagen](https://user-images.githubusercontent.com/95602965/198431408-a95e06c5-0b7c-4dc0-9ffc-48cfa2b8c15c.png)
 
 Good Life! ( ͡~ ͜ʖ ͡°)
