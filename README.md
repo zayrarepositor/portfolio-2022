@@ -5,7 +5,7 @@
 ## Portfolio-2022
 
 ## About
-❤ Hey! It is my first portfolio. It is a basic HTML and CSS single page.
+❤ Hey! It is my portfolio. It is a basic HTML and bootstrap5 single page.
 
 ## Deploy
 ☞ <a href="https://zayra-velasco-developer.netlify.app/">https://zayra-velasco-developer.netlify.app/</a>
