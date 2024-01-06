@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- title & description -->
-    <title>Zayra Velasco - Software developer full MERN stack</title>
+    <title>Zayra Velasco Rosillo - website</title>
     <meta
       name="description"
-      content="full stack software developer argentin portfolio - rosario, argentina"
+      content="zayra velasco rosillo artist developer argentin portfolio - rosario, argentina"
     />
     <!-- favicon -->
     <link
@@ -15,6 +15,13 @@
       sizes="32x32"
       rel="icon"
       href="./assets/img/icons8-usuario-femenino-50.png"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Manrope:wght@500;800&family=Ruslan+Display&display=swap"
+      rel="stylesheet"
     />
     <!-- bootstrap 5 -->
     <link
@@ -26,85 +33,125 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
-
     <!-- css -->
     <link rel="stylesheet" href="./css/index.css" />
   </head>
-  <body class="bg-dark text-white">
+  <body class="container-fluid bg-dark text-white">
     <!-- header -->
-    <header>
-      <div class="row d-flex bg-dark text-center">
-        <div class="col-md-8 mx-auto">
-          <img
-            id="home"
-            src="https://raw.githubusercontent.com/zayrarepositor/zayrarepositor/main/MQXv.gif"
-            class="card-img-top"
-            style="height: 130px"
-            alt="..."
-          />
-          <!-- navbar -->
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 fs-5">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="bi bi-chevron-bar-down"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a href="#home" class="nav-link active" aria-current="page"
-                    >Inicio</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#links">Links</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#recomendations">Recomendations</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-
+    <header
+      class="row d-flex align-items-center justify-content-center bg-dark text-center"
+    >
+      <!-- images -->
+      <!-- top image for mobile -->
+      <img
+        src="https://raw.githubusercontent.com/zayrarepositor/zayrarepositor/main/MQXv.gif"
+        class="img-fluid d-block d-md-none"
+        style="height: 130px"
+        alt="..."
+      />
+      <!-- images for web -->
+      <img
+        src="https://raw.githubusercontent.com/zayrarepositor/zayrarepositor/main/MQXv.gif"
+        class="img d-none d-md-block p-0"
+        style="
+          height: 90px;
+          width: 90px;
+          border-radius: 50%;
+          position: absolute;
+          left: 85px;
+          top: 20px;
+        "
+        alt="..."
+      />
+      <img
+        class="img d-none d-md-block p-0"
+        src="./assets/img/zay.png"
+        alt="zayra"
+        style="
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          position: absolute;
+          left: 104px;
+          top: 66px;
+        "
+      />
       <!-- Zayra Velasco -->
-      <h1 class="mx-4 display-1 text-secondary">Zayra Velasco</h1>
-      <div class="row d-flex align-items-center bg-dark text-center mx-2">
-        <div class="col-4">
-          <h4>Software developer</h4>
-        </div>
-        <div class="col-4">
-          <img
-            class="mx-auto"
-            src="./assets/img/zayraprofile2MB.png"
-            alt="zayra"
-            style="width: 100px; border-radius: 50%"
-          />
-        </div>
-        <div class="col-4">
-          <h4>Admin Manager</h4>
-        </div>
+      <div
+        class="col-md-8 d-flex justify-content-center align-items-center pt-3 display-1 text-secondary"
+        style="height: 130px"
+        id="home"
+      >
+        <h1 class="display-1 text-secondary">Zayra Velasco R</h1>
+      </div>
+      <!-- navbar -->
+      <div class="d-flex justify-content-center align-items-center text-center">
+        <nav class="navbar navbar-expand-md navbar-dark fs-5">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="bi bi-chevron-bar-down"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link manrope text-uppercase" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link manrope text-uppercase" href="#skills"
+                  >Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link manrope text-uppercase" href="#links"
+                  >Links</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link manrope text-uppercase" href="#projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link manrope text-uppercase" href="#contact"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link manrope text-uppercase fs-4"
+                  href="#recomendations"
+                  >Recomendations</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
+    <div class="container-lg d-flex flex-column text-center bg-dark text-white">
+      <div>
+        <a href="#" class="nav-link link-secondary fs-3" aria-current="page"
+          >Developer</a
+        >
+      </div>
+      <div>
+        <img class="mx-auto w-50" src="./assets/img/zay.png" alt="zay" />
+      </div>
+      <div>
+        <a href="#" class="nav-link link-secondary fs-3" aria-current="page"
+          >Artist</a
+        >
+      </div>
+    </div>
     <!-- up -->
     <div class="up">
       <figure>
@@ -118,34 +165,46 @@
     </div>
     <!-- about -->
     <h2 class="mx-4 display-1 text-secondary" id="about">about</h2>
-    <div
-      class="container-fluid text-center align-items-center bg-dark text-white"
-    >
+    <div class="container-lg text-center bg-dark text-white">
       <div class="row">
-        <div class="col-12 col-md-8 px-3">
-          <h6 class="mb-3 mw-100 mx-auto fs-5" style="width: 500px">
-            As Developer I have participated in group projects (SCRUM
-            methodology) as a full MERN stack.
-          </h6>
-          <h6 class="mb-3 mw-100 mx-auto fs-5" style="width: 500px">
-            As Admin Manager I have more than 15 years of work experience
-            leading groups or personal projects, always in customer-focused
-            areas.
-          </h6>
+        <div
+          class="d-flex flex-column col-12 col-md-8 px-3 justify-content-center"
+        >
+          <p class="text-wrap lh-base fs-3">
+            Welcome to my world, where coding and creativity converge.
+          </p>
+          <p class="text-wrap lh-base fs-3">
+            As a developer, I began my journey in frontend development but
+            currently thrive as a backend developer.
+          </p>
+          <p class="text-wrap lh-base fs-3">
+            As an artist, traditional drawing and painting have been present all
+            my life. I am now experimenting with digital realm.
+          </p>
+          <p class="text-wrap lh-base fs-3">
+            I am passionate about merging creativity with technology, and my
+            journey reflects my commitment to innovation and continuous
+            learning.
+          </p>
         </div>
-        <div class="col-12 col-md-4 px-3">
-          <h4 class="mb-3 text-secondary">Favorites</h4>
-          <img
-            class="w-100"
-            src="https://readme-typing-svg.herokuapp.com?font=courier+new+bold&size=28&duration=3500&pause=200&color=ffff&center=true&width=535&lines=coding;music; health readings;art shocks;yoga"
-            alt="Typing SVG"
-          />
+        <div
+          class="d-flex flex-column col-12 col-md-4 ps-3 justify-content-center"
+        >
+          <div>
+            <h3 class="mb-2 text-secondary display-4">Favorites</h3>
+            <img class="img-fluid" src="./assets/img/zay2.png" alt="zay2" />
+            <img
+              class="img-fluid mb-3"
+              src="https://readme-typing-svg.herokuapp.com?font=Manrope&size=28&duration=3500&pause=200&color=ffff&center=true&width=535&lines=coding;music;health readings;art shocks;yoga"
+              alt="Typing SVG"
+            />
+          </div>
         </div>
       </div>
     </div>
     <!-- skills -->
     <h2 class="mx-4 display-1 text-secondary" id="skills">skills</h2>
-    <div class="container-fluid text-center">
+    <div class="container-lg text-center">
       <div
         id="skillsCarousel"
         class="carousel slide mx-auto mw-100"
@@ -154,9 +213,7 @@
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="text-white text-center">
-              <h5>Softs</h5>
-            </div>
+            <div class="text-white text-center h3 manrope">Softs</div>
             <img
               src="./assets/skills/icons8-red-de-negocios-50.png"
               class="d-block mx-auto my-3"
@@ -164,15 +221,13 @@
               alt="..."
             />
             <div class="text-white text-center">
-              <p>Logical thinking</p>
-              <p>Effective communication</p>
-              <p>Continuous learning</p>
+              <p class="h5">Logical thinking</p>
+              <p class="h5">Effective communication</p>
+              <p class="h5">Continuous learning</p>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="text-white text-center">
-              <h3>Techs</h3>
-            </div>
+            <div class="text-white text-center h3 manrope">Techs</div>
             <img
               src="./assets/skills/icons8-javascript-50.png"
               class="d-block mx-auto my-3"
@@ -180,15 +235,13 @@
               alt="..."
             />
             <div class="text-white text-center">
-              <p>JavaScript</p>
-              <p>NodeJS</p>
-              <p>React</p>
+              <p class="h5">JavaScript</p>
+              <p class="h5">Typescript</p>
+              <p class="h5">Python</p>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="text-white text-center">
-              <h3>Plus</h3>
-            </div>
+            <div class="text-white text-center h3 manrope">Plus</div>
             <img
               src="./assets/skills/icons8-habilidad-de-brainstorm-50.png"
               class="d-block mx-auto my-3"
@@ -196,9 +249,9 @@
               alt="..."
             />
             <div class="text-white text-center">
-              <p>Art lover</p>
-              <p>Adventurous traveler</p>
-              <p>English</p>
+              <p class="h5">Art lover</p>
+              <p class="h5">Emotional intelligence</p>
+              <p class="h5">English</p>
             </div>
           </div>
         </div>
@@ -224,8 +277,8 @@
     </div>
     <!-- links -->
     <h2 class="mx-4 display-1 text-secondary" id="links">links</h2>
-    <div class="card-group">
-      <div class="card text-white bg-dark mb-3 border-0">
+    <div class="container-lg card-group">
+      <div class="card text-light m-3 border-0 bg-dark">
         <img
           src="./assets/links/icons8-abrir-currículum-50.png"
           class="card-img-top mx-auto"
@@ -233,7 +286,7 @@
           alt="..."
         />
         <div class="card-body text-center">
-          <h5 class="card-title">Resume</h5>
+          <h5 class="card-title manrope">Resume</h5>
           <a
             class="link-secondary"
             href="./assets/cv/zayravelasco-fullstack-eng.pdf"
@@ -250,7 +303,7 @@
           </a>
         </div>
       </div>
-      <div class="card text-white bg-dark mb-3 border-0">
+      <div class="card text-light m-3 border-0 bg-dark">
         <img
           src="./assets/links/icons8-github-50.png"
           class="card-img-top mx-auto"
@@ -258,7 +311,7 @@
           alt="..."
         />
         <div class="card-body text-center">
-          <h5 class="card-title">GitHub</h5>
+          <h5 class="card-title manrope">GitHub</h5>
           <a
             class="link-secondary"
             href="https://github.com/zayrarepositor"
@@ -268,7 +321,7 @@
           >
         </div>
       </div>
-      <div class="card text-white bg-dark mb-3 border-0">
+      <div class="card text-light m-3 border-0 bg-dark">
         <img
           src="./assets/cert/henry.png"
           class="card-img-top mx-auto"
@@ -276,7 +329,7 @@
           alt="..."
         />
         <div class="card-body text-center">
-          <h5 class="card-title">Henry certification</h5>
+          <h5 class="card-title manrope">Henry certification</h5>
           <a
             class="link-secondary"
             href="./assets/cert/henry.pdf"
@@ -286,7 +339,7 @@
           </a>
         </div>
       </div>
-      <div class="card text-white bg-dark mb-3 border-0">
+      <div class="card text-light m-3 border-0 bg-dark">
         <img
           src="./assets/cert/brainnest.png"
           class="card-img-top mx-auto"
@@ -294,7 +347,7 @@
           alt="..."
         />
         <div class="card-body text-center">
-          <h5 class="card-title">Brainnest certification</h5>
+          <h5 class="card-title manrope">Brainnest certification</h5>
           <a
             class="link-secondary"
             href="./assets/cert/brainnest.pdf"
@@ -305,8 +358,8 @@
         </div>
       </div>
     </div>
-    <div class="card-group">
-      <div class="card text-white bg-dark mb-3 border-0">
+    <div class="container-lg card-group">
+      <div class="card text-white bg-dark m-3 border-0">
         <img
           src="./assets/cert/alkemy.png"
           class="card-img-top mx-auto"
@@ -314,7 +367,7 @@
           alt="..."
         />
         <div class="card-body text-center">
-          <h5 class="card-title">Alkemy certification</h5>
+          <h5 class="card-title manrope">Alkemy certification</h5>
           <a
             class="link-secondary"
             href="./assets/cert/alkemy.pdf"
@@ -324,7 +377,7 @@
           >
         </div>
       </div>
-      <div class="card text-white bg-dark mb-3 border-0">
+      <div class="card text-white bg-dark m-3 border-0">
         <img
           src="./assets/cert/google.png"
           class="card-img-top mx-auto"
@@ -332,7 +385,7 @@
           alt="..."
         />
         <div class="card-body text-center">
-          <h5 class="card-title">Google certification</h5>
+          <h5 class="card-title manrope">Google certification</h5>
           <a
             class="link-secondary"
             href="./assets/cert/google.pdf"
@@ -342,7 +395,7 @@
           >
         </div>
       </div>
-      <div class="card text-white bg-dark mb-3 border-0">
+      <div class="card text-white bg-dark m-3 border-0">
         <img
           src="./assets/cert/google.png"
           class="card-img-top mx-auto"
@@ -350,7 +403,7 @@
           alt="..."
         />
         <div class="card-body text-center">
-          <h5 class="card-title">Google certification</h5>
+          <h5 class="card-title manrope">Google certification</h5>
           <a
             class="link-secondary"
             href="./assets/cert/google2.pdf"
@@ -360,7 +413,7 @@
           >
         </div>
       </div>
-      <div class="card text-white bg-dark mb-3 border-0">
+      <div class="card text-white bg-dark m-3 border-0">
         <img
           src="./assets/cert/efset.png"
           class="card-img-top mx-auto"
@@ -368,7 +421,7 @@
           alt="..."
         />
         <div class="card-body text-center">
-          <h5 class="card-title">EF Set certification</h5>
+          <h5 class="card-title manrope">EF Set certification</h5>
           <a
             class="link-secondary"
             href="./assets/cert/efset.pdf"
@@ -381,7 +434,7 @@
     </div>
     <!-- projects -->
     <h2 class="mx-4 display-1 text-secondary" id="projects">projects</h2>
-    <div class="container">
+    <div class="container-lg">
       <div class="card-group">
         <div class="row">
           <!-- patients register -->
@@ -395,7 +448,7 @@
                 style="max-width: 50px"
               />
               <div class="card-body">
-                <h3 class="card-title">patients register</h3>
+                <h3 class="card-title manrope">patients register</h3>
                 <p class="card-text">
                   Frontend project with Vite and Tailwindcss
                 </p>
@@ -426,7 +479,7 @@
                 style="max-width: 50px"
               />
               <div class="card-body">
-                <h3 class="card-title">budget app</h3>
+                <h3 class="card-title manrope">budget app</h3>
                 <p class="card-text">
                   Frontend project with Vite, CSS and Auth0 login
                 </p>
@@ -457,7 +510,7 @@
                 style="max-width: 50px"
               />
               <div class="card-body">
-                <h3 class="card-title">pokemons app</h3>
+                <h3 class="card-title manrope">pokemons app</h3>
                 <p class="card-text">
                   Full stack project: Frontend with React, Redux and CSS
                 </p>
@@ -482,7 +535,7 @@
                 style="max-width: 50px"
               />
               <div class="card-body">
-                <h3 class="card-title">henry match</h3>
+                <h3 class="card-title manrope">henry match</h3>
                 <p class="card-text">
                   Full stack project: Frontend with Vite, Material UI, Auth0,
                   Nodemailer, Talkjs and React Tinder Card
@@ -508,7 +561,7 @@
                 style="max-width: 50px"
               />
               <div class="card-body">
-                <h3 class="card-title">disney api</h3>
+                <h3 class="card-title manrope">disney api</h3>
                 <p class="card-text">
                   Backend project with Node, Express, Sequelize, Nodemailer and
                   JWT
@@ -534,7 +587,7 @@
                 style="max-width: 50px"
               />
               <div class="card-body">
-                <h3 class="card-title">astro app</h3>
+                <h3 class="card-title manrope">astro app</h3>
                 <p class="card-text">
                   Backend project with Node, Express, Sequelize, Nodemailer and
                   JWT
@@ -567,7 +620,7 @@
                 style="max-width: 50px"
               />
               <div class="card-body">
-                <h3 class="card-title">bsale store</h3>
+                <h3 class="card-title manrope">bsale store</h3>
                 <p class="card-text">
                   Full stack challenge with NodeJS and VanillaJS
                 </p>
@@ -592,7 +645,7 @@
                 style="max-width: 50px"
               />
               <div class="card-body">
-                <h3 class="card-title">OT267 server</h3>
+                <h3 class="card-title manrope">OT267 server</h3>
                 <p class="card-text">
                   Backend project with NodeJS, Sequelize, JWT, AWS, Sendgrid
                   Mercado Pago SDK, Swagger, Mocha-Chai
@@ -618,7 +671,7 @@
                 style="max-width: 50px"
               />
               <div class="card-body">
-                <h3 class="card-title">tasks server</h3>
+                <h3 class="card-title manrope">tasks server</h3>
                 <p class="card-text">
                   Backend project with Typescript, Nest, MongoDB, Mongoose, JWT
                 </p>
@@ -643,7 +696,7 @@
                 style="max-width: 50px"
               />
               <div class="card-body">
-                <h3 class="card-title">Frontend program</h3>
+                <h3 class="card-title manrope">Frontend program</h3>
                 <p class="card-text">
                   HTML, CSS and JavaScript tasks into frontend program
                 </p>
@@ -669,225 +722,244 @@
     </div>
     <!-- contact -->
     <h2 id="contact" class="mx-4 display-1 text-secondary">contact</h2>
-    <div class="text-center">
-      <p class="px-4">Drop me a line</p>
-      <a
-        class="link-secondary"
-        href="mailto:zayra.contacto@gmail.com"
-        target="_blank"
-      >
-        <h3>zayra.contacto@gmail.com</h3>
-      </a>
+    <div
+      class="container-lg flex-column text-center mt-2 mb-5"
+      id="recomendations"
+    >
+      <!-- recomandations id is here to resolve duplicated recomendation title above -->
+      <!-- mobile -->
+      <div class="mb-4 h3 d-block d-md-none">
+        Drop me a line
+        <a
+          class="h3 my-3 link-secondary d-block d-md-none"
+          href="mailto:zayra.contacto@gmail.com"
+          target="_blank"
+        >
+          zayra.contacto@gmail.com
+        </a>
+      </div>
+      <!-- web -->
+      <div class="mb-4 h2 d-none d-md-block">
+        Drop me a line
+        <a
+          class="h3 my-3 link-secondary d-none d-md-block"
+          href="mailto:zayra.contacto@gmail.com"
+          target="_blank"
+        >
+          zayra.contacto@gmail.com
+        </a>
+      </div>
     </div>
-
     <!-- recomendations -->
-    <h2 class="mx-4 display-1 text-secondary" id="recomendations">
+    <!-- mobile -->
+    <h2 class="display-4 text-center text-secondary d-block d-md-none">
       recomendations
     </h2>
-    <div class="text-center p-0 mb-5 mx-4">
-      <div class="col-md-6 mx-auto">
-        <div
-          class="accordion text-white link-secondary"
-          id="accordionRecomendations"
+    <!-- web -->
+    <h2 class="display-1 mx-4 text-secondary d-none d-md-block">
+      recomendations
+    </h2>
+    <div
+      class="col-md-6 mx-auto mb-5 accordion text-center text-white link-secondary"
+      id="accordionRecomendations"
+    >
+      <!-- juanjo -->
+      <div class="accordion-item bg-dark">
+        <button
+          class="accordion-button collapsed bg-dark text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseOne"
+          aria-expanded="false"
+          aria-controls="collapseOne"
         >
-          <!--         juanjo -->
-          <div class="accordion-item bg-dark">
-            <h2 class="accordion-header" id="headingOne">
-              <button
-                class="accordion-button collapsed bg-dark text-white"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="false"
-                aria-controls="collapseOne"
-              >
-                Juanjo Chiliutti
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse collapse"
-              aria-labelledby="headingOne"
-              data-bs-parent="#accordionRecomendations"
-            >
-              <div class="accordion-body">
-                Con <strong>Zayra</strong> compartimos muchas horas de trabajo
-                para desarrollar nuestro trabajo final en Henry. Sin dudas fue
-                un pilar fundamental, alentando a sus compañeros, colaborando de
-                forma desinteresada y trabajando sin parar por horas. Su
-                compromiso y responsabilidad son los estandartes que puede
-                llevar a donde le toque estar.
-                <p>
-                  <a
-                    class="link-secondary"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/juanjochiliutti"
-                    >Juanjo LinkedIn
-                  </a>
-                </p>
-              </div>
-            </div>
+          <h3 class="accordion-header h4 manrope" id="headingOne">
+            Juanjo Chiliutti
+          </h3>
+        </button>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse collapse"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionRecomendations"
+        >
+          <div class="accordion-body h5">
+            "Con <strong>Zayra</strong> compartimos muchas horas de trabajo para
+            desarrollar nuestro trabajo final en Henry. Sin dudas fue un pilar
+            fundamental, alentando a sus compañeros, colaborando de forma
+            desinteresada y trabajando sin parar por horas. Su compromiso y
+            responsabilidad son los estandartes que puede llevar a donde le
+            toque estar."
+            <p class="mt-4">
+              <a
+                class="link-secondary"
+                target="_blank"
+                href="https://www.linkedin.com/in/juanjochiliutti"
+                >Juanjo LinkedIn
+              </a>
+            </p>
           </div>
-          <!-- martu -->
-          <div class="accordion-item bg-dark">
-            <h2 class="accordion-header" id="headingTwo">
-              <button
-                class="accordion-button collapsed bg-dark text-white"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
+        </div>
+      </div>
+      <!-- martu -->
+      <div class="accordion-item bg-dark">
+        <button
+          class="accordion-button collapsed bg-dark text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseTwo"
+          aria-expanded="false"
+          aria-controls="collapseTwo"
+        >
+          <h3 class="accordion-header h4 manrope" id="headingTwo">
+            Martina Ortiz Novero
+          </h3>
+        </button>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionRecomendations"
+        >
+          <div class="accordion-body h5">
+            "Me toco trabajar con <strong>Zayra </strong> en el proyecto final
+            del Bootcamp de Henry, fue una gran experiencia haber estado en el
+            mismo grupo con ella y poder compartir muchas horas codiando. Es una
+            persona muy determinante y con muchísimo conocimiento de la que
+            puede aprender, sabe como encarar los conflictos que se presentan
+            hasta llegar a una solución segura. Se que es muy capaz de enfrentar
+            cualquier desafío que se le presente."
+            <p class="mt-4">
+              <a
+                class="link-secondary"
+                target="_blank"
+                href="https://www.linkedin.com/in/martina-ortiznovero"
               >
-                Martina Ortiz Novero
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingTwo"
-              data-bs-parent="#accordionRecomendations"
-            >
-              <div class="accordion-body">
-                Me toco trabajar con <strong>Zayra </strong> en el proyecto
-                final del Bootcamp de Henry, fue una gran experiencia haber
-                estado en el mismo grupo con ella y poder compartir muchas horas
-                codiando. Es una persona muy determinante y con muchísimo
-                conocimiento de la que puede aprender, sabe como encarar los
-                conflictos que se presentan hasta llegar a una solución segura.
-                Se que es muy capaz de enfrentar cualquier desafío que se le
-                presente.
-                <p>
-                  <a
-                    class="link-secondary"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/martina-ortiznovero"
-                  >
-                    Martina Ortiz Novero LinkedIn
-                  </a>
-                </p>
-              </div>
-            </div>
+                Martina Ortiz Novero LinkedIn
+              </a>
+            </p>
           </div>
-          <!-- romi -->
-          <div class="accordion-item bg-dark">
-            <h2 class="accordion-header" id="headingThree">
-              <button
-                class="accordion-button collapsed bg-dark text-white"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
+        </div>
+      </div>
+      <!-- romi -->
+      <div class="accordion-item bg-dark">
+        <button
+          class="accordion-button collapsed bg-dark text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseThree"
+          aria-expanded="false"
+          aria-controls="collapseThree"
+        >
+          <h3 class="accordion-header h4 manrope" id="headingThree">
+            Romina Valdez
+          </h3>
+        </button>
+
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionRecomendations"
+        >
+          <div class="accordion-body h5">
+            "We worked on the Final Project of Herny Bootcamp and it was a super
+            enriching experience! <strong>Zayra</strong> is a proactive person
+            who is constantly seeking to acquire new knowledge, she is
+            collaborative and showed great leadership and determination. It was
+            a pleasure working with her!"
+            <p class="mt-4">
+              <a
+                class="link-secondary"
+                target="_blank"
+                href="https://www.linkedin.com/in/romina-valdez"
               >
-                Romina Valdez
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingThree"
-              data-bs-parent="#accordionRecomendations"
-            >
-              <div class="accordion-body">
-                We worked on the Final Project of Herny Bootcamp and it was a
-                super enriching experience! <strong>Zayra</strong> is a
-                proactive person who is constantly seeking to acquire new
-                knowledge, she is collaborative and showed great leadership and
-                determination. It was a pleasure working with her!
-                <p>
-                  <a
-                    class="link-secondary"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/romina-valdez"
-                  >
-                    Romina Valdez LinkedIn
-                  </a>
-                </p>
-              </div>
-            </div>
+                Romina Valdez LinkedIn
+              </a>
+            </p>
           </div>
-          <!-- pablo -->
-          <div class="accordion-item bg-dark">
-            <h2 class="accordion-header" id="headingFour">
-              <button
-                class="accordion-button collapsed bg-dark text-white"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFour"
-                aria-expanded="false"
-                aria-controls="collapseFour"
+        </div>
+      </div>
+      <!-- pablo -->
+      <div class="accordion-item bg-dark">
+        <button
+          class="accordion-button collapsed bg-dark text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseFour"
+          aria-expanded="false"
+          aria-controls="collapseFour"
+        >
+          <h3 class="accordion-header h4 manrope" id="headingFour">
+            Pablo Carranza
+          </h3>
+        </button>
+
+        <div
+          id="collapseFour"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingFour"
+          data-bs-parent="#accordionRecomendations"
+        >
+          <div class="accordion-body h5">
+            "Tuve la oportunidad de trabajar con <strong> Zayra</strong>, sin
+            dudas una excelente compañera, muy colaborativa y resolutiva con
+            mucha capacidad de liderazgo y adaptacion. Siempre predispuesta al
+            trabajo en grupo y a la mejora constante."
+            <p class="mt-4">
+              <a
+                class="link-secondary"
+                target="_blank"
+                href="https://www.linkedin.com/in/pabloecarranza"
               >
-                Pablo Carranza
-              </button>
-            </h2>
-            <div
-              id="collapseFour"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingFour"
-              data-bs-parent="#accordionRecomendations"
-            >
-              <div class="accordion-body">
-                Tuve la oportunidad de trabajar con <strong> Zayra</strong>, sin
-                dudas una excelente compañera, muy colaborativa y resolutiva con
-                mucha capacidad de liderazgo y adaptacion. Siempre predispuesta
-                al trabajo en grupo y a la mejora constante.
-                <p>
-                  <a
-                    class="link-secondary"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/pabloecarranza"
-                  >
-                    Pablo Carranza LinkedIn
-                  </a>
-                </p>
-              </div>
-            </div>
+                Pablo Carranza LinkedIn
+              </a>
+            </p>
           </div>
-          <!-- albert -->
-          <div class="accordion-item bg-dark">
-            <h2 class="accordion-header" id="headingFive">
-              <button
-                class="accordion-button collapsed bg-dark text-white"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFive"
-                aria-expanded="false"
-                aria-controls="collapseFive"
+        </div>
+      </div>
+      <!-- albert -->
+      <div class="accordion-item bg-dark">
+        <button
+          class="accordion-button collapsed bg-dark text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseFive"
+          aria-expanded="false"
+          aria-controls="collapseFive"
+        >
+          <h3 class="accordion-header h4 manrope" id="headingFive">
+            Alberto Giuseppe
+          </h3>
+        </button>
+
+        <div
+          id="collapseFive"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingFive"
+          data-bs-parent="#accordionRecomendations"
+        >
+          <div class="accordion-body h5">
+            "Excelente compañera de trabajo, me gusta mucho trabajar con ella ya
+            que tiene las ideas claras me gusta la dedicacion que le mete a la
+            hora de codear y sacar alguna funcionabilidad, al trabajar con ella
+            note cualidades de liderazgo, empatia y excelente toma de
+            decisiones."
+            <p class="mt-4">
+              <a
+                class="link-secondary"
+                target="_blank"
+                href="https://www.linkedin.com/in/giu-dev"
               >
-                Alberto Giuseppe
-              </button>
-            </h2>
-            <div
-              id="collapseFive"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingFive"
-              data-bs-parent="#accordionRecomendations"
-            >
-              <div class="accordion-body">
-                Excelente compañera de trabajo, me gusta mucho trabajar con ella
-                ya que tiene las ideas claras me gusta la dedicacion que le mete
-                a la hora de codear y sacar alguna funcionabilidad, al trabajar
-                con ella note cualidades de liderazgo, empatia y excelente toma
-                de decisiones.
-                <p>
-                  <a
-                    class="link-secondary"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/giu-dev"
-                  >
-                    Alberto Giuseppe LinkedIn
-                  </a>
-                </p>
-              </div>
-            </div>
+                Alberto Giuseppe LinkedIn
+              </a>
+            </p>
           </div>
         </div>
       </div>
     </div>
-
     <!-- footer -->
-    <footer class="row">
+    <footer class="container-lg">
       <nav class="nav flex-row-reverse">
         <a
           class="nav-link link-secondary"
@@ -925,9 +997,8 @@
           />
         </a>
       </nav>
-
-      <nav class="nav flex-column ms-4">
-        <a class="nav-link link-secondary" href="#home">Inicio</a>
+      <nav class="nav flex-column">
+        <a class="nav-link link-secondary" href="#home">Home</a>
 
         <a class="nav-link link-secondary" href="#about">About</a>
 
@@ -943,15 +1014,13 @@
           >Recomendations</a
         >
       </nav>
-
       <div class="container-fluid my-5 text-center">
         <img
-          src="https://readme-typing-svg.herokuapp.com?font=courier+new+bold&size=30&duration=3500&pause=200&color=fff&center=true&width=360&lines=Dream+as+if;you'll+live+forever;Live+as+if;you'll+die+today"
+          src="https://readme-typing-svg.herokuapp.com?font=Manrope&size=24&duration=3500&pause=200&color=fff&center=true&width=310&lines=Dream+as+if;you'll+live+forever;Live+as+if;you'll+die+today"
           alt="Typing SVG"
         />
       </div>
     </footer>
-
     <!-- bootstrap 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
