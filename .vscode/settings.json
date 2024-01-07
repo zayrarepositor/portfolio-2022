@@ -3,5 +3,11 @@
 	"editor.formatOnSave": true,
 	"html.format.indentHandlebars": true,
 	"html.format.indentInnerHtml": true,
-	"indentRainbow.colorOnWhiteSpaceOnly": true
+	"indentRainbow.colorOnWhiteSpaceOnly": true,
+	"html.format.wrapLineLength": 120,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit"
+	},
+	"html.autoClosingTags": true,
+	"html.suggest.html5": true
 }
