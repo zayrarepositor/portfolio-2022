@@ -36,10 +36,10 @@
     <!-- css -->
     <link rel="stylesheet" href="./css/index.css" />
   </head>
-  <body class="container-fluid bg-dark text-white">
+  <body class="container-fluid" style="background-color: #000000e7">
     <!-- header -->
     <header
-      class="row d-flex align-items-center justify-content-center bg-dark text-center"
+      class="row d-flex align-items-center justify-content-center text-center"
     >
       <!-- images -->
       <!-- top image for mobile -->
@@ -76,13 +76,13 @@
           top: 66px;
         "
       />
-      <!-- Zayra Velasco -->
+      <!-- zayra velasco -->
       <div
         class="col-md-8 d-flex justify-content-center align-items-center pt-3 display-1 text-secondary"
         style="height: 130px"
         id="home"
       >
-        <h1 class="display-1 text-secondary">Zayra Velasco R</h1>
+        <h1 class="display-1 text-secondary">Zayra Velasco</h1>
       </div>
       <!-- navbar -->
       <div class="d-flex justify-content-center align-items-center text-center">
@@ -111,25 +111,8 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link manrope text-uppercase" href="#links"
-                  >Links</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link manrope text-uppercase" href="#projects"
-                  >Projects</a
-                >
-              </li>
-              <li class="nav-item">
                 <a class="nav-link manrope text-uppercase" href="#contact"
                   >Contact</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link manrope text-uppercase fs-4"
-                  href="#recomendations"
-                  >Recomendations</a
                 >
               </li>
             </ul>
@@ -137,9 +120,13 @@
         </nav>
       </div>
     </header>
-    <div class="container-lg d-flex flex-column text-center bg-dark text-white">
+    <!-- zayra developer artist -->
+    <div class="container-lg d-flex flex-column text-center">
       <div>
-        <a href="#" class="nav-link link-secondary fs-3" aria-current="page"
+        <a
+          href="./pages/developer.html"
+          class="nav-link link-secondary fs-3"
+          aria-current="page"
           >Developer</a
         >
       </div>
@@ -147,7 +134,10 @@
         <img class="mx-auto w-50" src="./assets/img/zay.png" alt="zay" />
       </div>
       <div>
-        <a href="#" class="nav-link link-secondary fs-3" aria-current="page"
+        <a
+          href="./pages/artist.html"
+          class="nav-link link-secondary fs-3"
+          aria-current="page"
           >Artist</a
         >
       </div>
@@ -165,7 +155,7 @@
     </div>
     <!-- about -->
     <h2 class="mx-4 display-1 text-secondary" id="about">about</h2>
-    <div class="container-lg text-center bg-dark text-white">
+    <div class="container-lg text-center">
       <div class="row">
         <div
           class="d-flex flex-column col-12 col-md-8 px-3 justify-content-center"
@@ -204,7 +194,7 @@
     </div>
     <!-- skills -->
     <h2 class="mx-4 display-1 text-secondary" id="skills">skills</h2>
-    <div class="container-lg text-center">
+    <div class="container-lg text-center mb-5">
       <div
         id="skillsCarousel"
         class="carousel slide mx-auto mw-100"
@@ -213,42 +203,58 @@
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="text-white text-center h3 manrope">Softs</div>
+            <div class="text-center h3 manrope">Softs</div>
             <img
               src="./assets/skills/icons8-red-de-negocios-50.png"
               class="d-block mx-auto my-3"
               style="width: 50px"
               alt="..."
             />
-            <div class="text-white text-center">
+            <div class="text-center">
               <p class="h5">Logical thinking</p>
               <p class="h5">Effective communication</p>
               <p class="h5">Continuous learning</p>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="text-white text-center h3 manrope">Techs</div>
+            <div class="text-center h3 manrope">Techs</div>
             <img
               src="./assets/skills/icons8-javascript-50.png"
               class="d-block mx-auto my-3"
               style="width: 50px"
               alt="..."
             />
-            <div class="text-white text-center">
+            <div class="text-center">
               <p class="h5">JavaScript</p>
               <p class="h5">Typescript</p>
               <p class="h5">Python</p>
             </div>
           </div>
+          <!-- techs II -->
           <div class="carousel-item">
-            <div class="text-white text-center h3 manrope">Plus</div>
+            <div class="text-center h3 manrope">Techs</div>
+            <img
+              src="./assets/skills/icons8-pencil-drawing-80.png"
+              class="d-block mx-auto my-3"
+              style="width: 50px"
+              alt="..."
+            />
+            <div class="text-center">
+              <p class="h5">Colored pencils</p>
+              <p class="h5">Graphite</p>
+              <p class="h5">Oil pastel</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="carousel-item">
+            <div class="text-center h3 manrope">Plus</div>
             <img
               src="./assets/skills/icons8-habilidad-de-brainstorm-50.png"
               class="d-block mx-auto my-3"
               style="width: 50px"
               alt="..."
             />
-            <div class="text-white text-center">
+            <div class="text-center">
               <p class="h5">Art lover</p>
               <p class="h5">Emotional intelligence</p>
               <p class="h5">English</p>
@@ -275,458 +281,9 @@
         </button>
       </div>
     </div>
-    <!-- links -->
-    <h2 class="mx-4 display-1 text-secondary" id="links">links</h2>
-    <div class="container-lg card-group">
-      <div class="card text-light m-3 border-0 bg-dark">
-        <img
-          src="./assets/links/icons8-abrir-currículum-50.png"
-          class="card-img-top mx-auto"
-          style="width: 50px"
-          alt="..."
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title manrope">Resume</h5>
-          <a
-            class="link-secondary"
-            href="./assets/cv/zayravelasco-fullstack-eng.pdf"
-            download="Zayra Velasco-Full Stack.pdf"
-          >
-            <p class="card-text">English</p>
-          </a>
-          <a
-            class="link-secondary"
-            href="./assets/cv/zayravelasco-fullstack-sp.pdf"
-            download="Zayra Velasco-Full Stack.pdf"
-          >
-            <p class="card-text">Spanish</p>
-          </a>
-        </div>
-      </div>
-      <div class="card text-light m-3 border-0 bg-dark">
-        <img
-          src="./assets/links/icons8-github-50.png"
-          class="card-img-top mx-auto"
-          style="width: 50px"
-          alt="..."
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title manrope">GitHub</h5>
-          <a
-            class="link-secondary"
-            href="https://github.com/zayrarepositor"
-            target="_blank"
-          >
-            <p class="card-text">Link</p></a
-          >
-        </div>
-      </div>
-      <div class="card text-light m-3 border-0 bg-dark">
-        <img
-          src="./assets/cert/henry.png"
-          class="card-img-top mx-auto"
-          style="width: 50px"
-          alt="..."
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title manrope">Henry certification</h5>
-          <a
-            class="link-secondary"
-            href="./assets/cert/henry.pdf"
-            download="Zayra Velasco-Henry cert.pdf"
-          >
-            <p class="card-text">Full Stack Developer</p>
-          </a>
-        </div>
-      </div>
-      <div class="card text-light m-3 border-0 bg-dark">
-        <img
-          src="./assets/cert/brainnest.png"
-          class="card-img-top mx-auto"
-          style="width: 50px"
-          alt="..."
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title manrope">Brainnest certification</h5>
-          <a
-            class="link-secondary"
-            href="./assets/cert/brainnest.pdf"
-            download="Zayra Velasco-Brainnest cert.pdf"
-          >
-            <p class="card-text">Frontend Developer</p>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="container-lg card-group">
-      <div class="card text-white bg-dark m-3 border-0">
-        <img
-          src="./assets/cert/alkemy.png"
-          class="card-img-top mx-auto"
-          style="width: 50px"
-          alt="..."
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title manrope">Alkemy certification</h5>
-          <a
-            class="link-secondary"
-            href="./assets/cert/alkemy.pdf"
-            download="Zayra Velasco-Alkemy cert.pdf"
-          >
-            <p class="card-text">NodeJS</p></a
-          >
-        </div>
-      </div>
-      <div class="card text-white bg-dark m-3 border-0">
-        <img
-          src="./assets/cert/google.png"
-          class="card-img-top mx-auto"
-          style="width: 50px"
-          alt="..."
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title manrope">Google certification</h5>
-          <a
-            class="link-secondary"
-            href="./assets/cert/google.pdf"
-            download="Zayra Velasco-Google cert.pdf"
-          >
-            <p class="card-text">Digital Skills</p></a
-          >
-        </div>
-      </div>
-      <div class="card text-white bg-dark m-3 border-0">
-        <img
-          src="./assets/cert/google.png"
-          class="card-img-top mx-auto"
-          style="width: 50px"
-          alt="..."
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title manrope">Google certification</h5>
-          <a
-            class="link-secondary"
-            href="./assets/cert/google2.pdf"
-            download="Zayra Velasco-Google cert.pdf"
-          >
-            <p class="card-text">Web Development Introduction I</p></a
-          >
-        </div>
-      </div>
-      <div class="card text-white bg-dark m-3 border-0">
-        <img
-          src="./assets/cert/efset.png"
-          class="card-img-top mx-auto"
-          style="width: 50px"
-          alt="..."
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title manrope">EF Set certification</h5>
-          <a
-            class="link-secondary"
-            href="./assets/cert/efset.pdf"
-            download="Zayra Velasco-EF Set cert.pdf"
-          >
-            <p class="card-text">C1 Level</p></a
-          >
-        </div>
-      </div>
-    </div>
-    <!-- projects -->
-    <h2 class="mx-4 display-1 text-secondary" id="projects">projects</h2>
-    <div class="container-lg">
-      <div class="card-group">
-        <div class="row">
-          <!-- patients register -->
-          <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center border-0">
-              <img
-                id="register"
-                src="./assets/projects/icons8-plan-de-tratamiento-50.png"
-                alt="register"
-                class="card-img-top mx-auto"
-                style="max-width: 50px"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">patients register</h3>
-                <p class="card-text">
-                  Frontend project with Vite and Tailwindcss
-                </p>
-                <a
-                  class="btn btn-secondary m-2"
-                  href="https://dazzling-zabaione-933dc1.netlify.app/"
-                  target="_blank"
-                >
-                  Web demo</a
-                ><a
-                  class="btn btn-secondary"
-                  href="https://github.com/zayrarepositor/patients-register-2022"
-                  target="_blank"
-                >
-                  GitHub repo
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- budget app -->
-          <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center border-0">
-              <img
-                id="budget"
-                src="./assets/projects/icons8-vista-frontal-del-monedero-50.png"
-                alt="budget"
-                class="card-img-top mx-auto"
-                style="max-width: 50px"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">budget app</h3>
-                <p class="card-text">
-                  Frontend project with Vite, CSS and Auth0 login
-                </p>
-                <a
-                  class="btn btn-secondary m-2"
-                  href="https://rad-pothos-ce687f.netlify.app"
-                  target="_blank"
-                >
-                  Web demo</a
-                ><a
-                  class="btn btn-secondary"
-                  href="https://github.com/zayrarepositor/budget-app-2022"
-                  target="_blank"
-                >
-                  GitHub repo
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- pokemons -->
-          <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center border-0">
-              <img
-                id="pokemons"
-                src="./assets/projects/icons8-pokeball-50.png"
-                alt="pokemons"
-                class="card-img-top mx-auto"
-                style="max-width: 50px"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">pokemons app</h3>
-                <p class="card-text">
-                  Full stack project: Frontend with React, Redux and CSS
-                </p>
-                <a
-                  class="btn btn-secondary"
-                  href="https://github.com/zayrarepositor/pokemons-app-2022"
-                  target="_blank"
-                >
-                  GitHub repo
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- henry match -->
-          <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center border-0">
-              <img
-                id="henrymatch"
-                src="./assets/projects/icons8-cohete-50.png"
-                alt="henrymatch"
-                class="card-img-top mx-auto"
-                style="max-width: 50px"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">henry match</h3>
-                <p class="card-text">
-                  Full stack project: Frontend with Vite, Material UI, Auth0,
-                  Nodemailer, Talkjs and React Tinder Card
-                </p>
-                <a
-                  class="btn btn-secondary"
-                  href="https://github.com/zayrarepositor/HenryMatchPF"
-                  target="_blank"
-                >
-                  GitHub repo
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- disney api -->
-          <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center border-0">
-              <img
-                id="disney"
-                src="./assets/projects/icons8-películas-disney-50.png"
-                alt="disney"
-                class="card-img-top mx-auto"
-                style="max-width: 50px"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">disney api</h3>
-                <p class="card-text">
-                  Backend project with Node, Express, Sequelize, Nodemailer and
-                  JWT
-                </p>
-                <a
-                  class="btn btn-secondary"
-                  href="https://github.com/zayrarepositor/disney-api"
-                  target="_blank"
-                >
-                  GitHub repo
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- astro app -->
-          <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center border-0">
-              <img
-                id="astro"
-                src="./assets/projects/icons8-telescopio-50.png"
-                alt="astro"
-                class="card-img-top mx-auto"
-                style="max-width: 50px"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">astro app</h3>
-                <p class="card-text">
-                  Backend project with Node, Express, Sequelize, Nodemailer and
-                  JWT
-                </p>
-                <a
-                  class="btn btn-secondary m-2"
-                  href="https://astro-api-2022.vercel.app/"
-                  target="_blank"
-                >
-                  Web demo
-                </a>
-                <a
-                  class="btn btn-secondary"
-                  href="https://github.com/zayrarepositor/astro-api-2022"
-                  target="_blank"
-                >
-                  GitHub repo
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- bsale -->
-          <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center border-0">
-              <img
-                id="bsale"
-                src="./assets/projects/icons8-caja-registradora-50.png"
-                alt="bsale"
-                class="card-img-top mx-auto"
-                style="max-width: 50px"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">bsale store</h3>
-                <p class="card-text">
-                  Full stack challenge with NodeJS and VanillaJS
-                </p>
-                <a
-                  class="btn btn-secondary m-2"
-                  href="https://github.com/zayrarepositor/bsale-front"
-                  target="_blank"
-                >
-                  GitHub repo
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- OT267 server -->
-          <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center border-0">
-              <img
-                id="OT267"
-                src="./assets/projects/icons8-planeta-tierra-50.png"
-                alt="OT267"
-                class="card-img-top mx-auto"
-                style="max-width: 50px"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">OT267 server</h3>
-                <p class="card-text">
-                  Backend project with NodeJS, Sequelize, JWT, AWS, Sendgrid
-                  Mercado Pago SDK, Swagger, Mocha-Chai
-                </p>
-                <a
-                  class="btn btn-secondary m-2"
-                  href="https://github.com/zayrarepositor/OT267-server"
-                  target="_blank"
-                >
-                  GitHub repo
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- nest-mongo-2022 -->
-          <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center border-0">
-              <img
-                id="nest-mongo"
-                src="./assets/projects/icons8-tarea-50.png"
-                alt="nest-mongo"
-                class="card-img-top mx-auto"
-                style="max-width: 50px"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">tasks server</h3>
-                <p class="card-text">
-                  Backend project with Typescript, Nest, MongoDB, Mongoose, JWT
-                </p>
-                <a
-                  class="btn btn-secondary m-2"
-                  href="https://github.com/zayrarepositor/nest-mongo-2022"
-                  target="_blank"
-                >
-                  GitHub repo
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- brainnest frontend program -->
-          <div class="col-6 col-md-3">
-            <div class="card text-white bg-dark text-center border-0">
-              <img
-                id="brainnest"
-                src="./assets/projects/icons8-creatividad-50.png"
-                alt="brainnest"
-                class="card-img-top mx-auto"
-                style="max-width: 50px"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Frontend program</h3>
-                <p class="card-text">
-                  HTML, CSS and JavaScript tasks into frontend program
-                </p>
-                <a
-                  class="btn btn-secondary m-2"
-                  href="https://github.com/zayrarepositor/brainnest-frontend-program"
-                  target="_blank"
-                >
-                  GitHub repo
-                </a>
-                <a
-                  class="btn btn-secondary m-2"
-                  href="https://zayrarepositor.github.io/brainnest-frontend-program/"
-                  target="_blank"
-                >
-                  Web demo
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- contact -->
     <h2 id="contact" class="mx-4 display-1 text-secondary">contact</h2>
-    <div
-      class="container-lg flex-column text-center mt-2 mb-5"
-      id="recomendations"
-    >
-      <!-- recomandations id is here to resolve duplicated recomendation title above -->
+    <div class="container-lg flex-column text-center mt-2 mb-5">
       <!-- mobile -->
       <div class="mb-4 h3 d-block d-md-none">
         Drop me a line
@@ -750,217 +307,20 @@
         </a>
       </div>
     </div>
-    <!-- recomendations -->
-    <!-- mobile -->
-    <h2 class="display-4 text-center text-secondary d-block d-md-none">
-      recomendations
-    </h2>
-    <!-- web -->
-    <h2 class="display-1 mx-4 text-secondary d-none d-md-block">
-      recomendations
-    </h2>
-    <div
-      class="col-md-6 mx-auto mb-5 accordion text-center text-white link-secondary"
-      id="accordionRecomendations"
-    >
-      <!-- juanjo -->
-      <div class="accordion-item bg-dark">
-        <button
-          class="accordion-button collapsed bg-dark text-white"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseOne"
-          aria-expanded="false"
-          aria-controls="collapseOne"
-        >
-          <h3 class="accordion-header h4 manrope" id="headingOne">
-            Juanjo Chiliutti
-          </h3>
-        </button>
-        <div
-          id="collapseOne"
-          class="accordion-collapse collapse collapse"
-          aria-labelledby="headingOne"
-          data-bs-parent="#accordionRecomendations"
-        >
-          <div class="accordion-body h5">
-            "Con <strong>Zayra</strong> compartimos muchas horas de trabajo para
-            desarrollar nuestro trabajo final en Henry. Sin dudas fue un pilar
-            fundamental, alentando a sus compañeros, colaborando de forma
-            desinteresada y trabajando sin parar por horas. Su compromiso y
-            responsabilidad son los estandartes que puede llevar a donde le
-            toque estar."
-            <p class="mt-4">
-              <a
-                class="link-secondary"
-                target="_blank"
-                href="https://www.linkedin.com/in/juanjochiliutti"
-                >Juanjo LinkedIn
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- martu -->
-      <div class="accordion-item bg-dark">
-        <button
-          class="accordion-button collapsed bg-dark text-white"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseTwo"
-          aria-expanded="false"
-          aria-controls="collapseTwo"
-        >
-          <h3 class="accordion-header h4 manrope" id="headingTwo">
-            Martina Ortiz Novero
-          </h3>
-        </button>
-        <div
-          id="collapseTwo"
-          class="accordion-collapse collapse"
-          aria-labelledby="headingTwo"
-          data-bs-parent="#accordionRecomendations"
-        >
-          <div class="accordion-body h5">
-            "Me toco trabajar con <strong>Zayra </strong> en el proyecto final
-            del Bootcamp de Henry, fue una gran experiencia haber estado en el
-            mismo grupo con ella y poder compartir muchas horas codiando. Es una
-            persona muy determinante y con muchísimo conocimiento de la que
-            puede aprender, sabe como encarar los conflictos que se presentan
-            hasta llegar a una solución segura. Se que es muy capaz de enfrentar
-            cualquier desafío que se le presente."
-            <p class="mt-4">
-              <a
-                class="link-secondary"
-                target="_blank"
-                href="https://www.linkedin.com/in/martina-ortiznovero"
-              >
-                Martina Ortiz Novero LinkedIn
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- romi -->
-      <div class="accordion-item bg-dark">
-        <button
-          class="accordion-button collapsed bg-dark text-white"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseThree"
-          aria-expanded="false"
-          aria-controls="collapseThree"
-        >
-          <h3 class="accordion-header h4 manrope" id="headingThree">
-            Romina Valdez
-          </h3>
-        </button>
-
-        <div
-          id="collapseThree"
-          class="accordion-collapse collapse"
-          aria-labelledby="headingThree"
-          data-bs-parent="#accordionRecomendations"
-        >
-          <div class="accordion-body h5">
-            "We worked on the Final Project of Herny Bootcamp and it was a super
-            enriching experience! <strong>Zayra</strong> is a proactive person
-            who is constantly seeking to acquire new knowledge, she is
-            collaborative and showed great leadership and determination. It was
-            a pleasure working with her!"
-            <p class="mt-4">
-              <a
-                class="link-secondary"
-                target="_blank"
-                href="https://www.linkedin.com/in/romina-valdez"
-              >
-                Romina Valdez LinkedIn
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- pablo -->
-      <div class="accordion-item bg-dark">
-        <button
-          class="accordion-button collapsed bg-dark text-white"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseFour"
-          aria-expanded="false"
-          aria-controls="collapseFour"
-        >
-          <h3 class="accordion-header h4 manrope" id="headingFour">
-            Pablo Carranza
-          </h3>
-        </button>
-
-        <div
-          id="collapseFour"
-          class="accordion-collapse collapse"
-          aria-labelledby="headingFour"
-          data-bs-parent="#accordionRecomendations"
-        >
-          <div class="accordion-body h5">
-            "Tuve la oportunidad de trabajar con <strong> Zayra</strong>, sin
-            dudas una excelente compañera, muy colaborativa y resolutiva con
-            mucha capacidad de liderazgo y adaptacion. Siempre predispuesta al
-            trabajo en grupo y a la mejora constante."
-            <p class="mt-4">
-              <a
-                class="link-secondary"
-                target="_blank"
-                href="https://www.linkedin.com/in/pabloecarranza"
-              >
-                Pablo Carranza LinkedIn
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- albert -->
-      <div class="accordion-item bg-dark">
-        <button
-          class="accordion-button collapsed bg-dark text-white"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseFive"
-          aria-expanded="false"
-          aria-controls="collapseFive"
-        >
-          <h3 class="accordion-header h4 manrope" id="headingFive">
-            Alberto Giuseppe
-          </h3>
-        </button>
-
-        <div
-          id="collapseFive"
-          class="accordion-collapse collapse"
-          aria-labelledby="headingFive"
-          data-bs-parent="#accordionRecomendations"
-        >
-          <div class="accordion-body h5">
-            "Excelente compañera de trabajo, me gusta mucho trabajar con ella ya
-            que tiene las ideas claras me gusta la dedicacion que le mete a la
-            hora de codear y sacar alguna funcionabilidad, al trabajar con ella
-            note cualidades de liderazgo, empatia y excelente toma de
-            decisiones."
-            <p class="mt-4">
-              <a
-                class="link-secondary"
-                target="_blank"
-                href="https://www.linkedin.com/in/giu-dev"
-              >
-                Alberto Giuseppe LinkedIn
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- footer -->
     <footer class="container-lg">
       <nav class="nav flex-row-reverse">
+        <a
+          class="nav-link link-secondary"
+          href="https://www.instagram.com/_za.y.ra_/"
+          target="_blank"
+        >
+          <img
+            style="width: 40px"
+            src="./assets/links/icons8-instagram-50.png"
+            alt="instagram"
+          />
+        </a>
         <a
           class="nav-link link-secondary"
           href="https://www.linkedin.com/in/zayra-velasco/"
@@ -972,7 +332,6 @@
             alt="linkedIn"
           />
         </a>
-
         <a
           class="nav-link link-secondary"
           href="https://github.com/zayrarepositor"
@@ -984,7 +343,6 @@
             alt="gitHub"
           />
         </a>
-
         <a
           class="nav-link link-secondary"
           href="mailto:zayra.contacto@gmail.com"
@@ -998,21 +356,21 @@
         </a>
       </nav>
       <nav class="nav flex-column">
-        <a class="nav-link link-secondary" href="#home">Home</a>
+        <a class="nav-link link-secondary h3" href="#home">Home</a>
 
-        <a class="nav-link link-secondary" href="#about">About</a>
+        <a class="nav-link link-secondary h3" href="#about">About</a>
 
-        <a class="nav-link link-secondary" href="#skills">Skills</a>
+        <a class="nav-link link-secondary h3" href="#skills">Skills</a>
 
-        <a class="nav-link link-secondary" href="#links">Links</a>
-
-        <a class="nav-link link-secondary" href="#projects">Projects</a>
-
-        <a class="nav-link link-secondary" href="#contact">Contact</a>
-
-        <a class="nav-link link-secondary" href="#recomendations"
-          >Recomendations</a
+        <a class="nav-link link-secondary h3" href="./pages/developer.html"
+          >Developer</a
         >
+
+        <a class="nav-link link-secondary h3" href="./pages/artist.html"
+          >Artist</a
+        >
+
+        <a class="nav-link link-secondary h3" href="#contact">Contact</a>
       </nav>
       <div class="container-fluid my-5 text-center">
         <img
@@ -1021,6 +379,7 @@
         />
       </div>
     </footer>
+
     <!-- bootstrap 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
