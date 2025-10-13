@@ -52,7 +52,7 @@
   </script>
   <body
     class="container-fluid"
-    style="background-color: hsla(18, 67%, 6%, 0.918)"
+    style="background-color: hsla(0, 0%, 92%, 0.918)"
   >
     <!-- header -->
     <header
@@ -68,7 +68,7 @@
       </div>
       <!-- navbar -->
       <div class="d-flex justify-content-center align-items-center text-center">
-        <nav class="navbar navbar-expand-md navbar-dark fs-5">
+        <nav class="navbar navbar-expand-md navbar-light fs-5">
           <button
             class="navbar-toggler"
             type="button"
@@ -125,24 +125,28 @@
       </div>
     </header>
     <!-- zayra developer artist -->
-    <div class="container-lg d-flex flex-column text-center">
-      <div>
-        <a
-          href="./developer.html"
-          class="nav-link link-secondary fs-3"
-          aria-current="page"
-          >Developer</a
-        >
+    <div class="container-lg">
+      <div class="row align-items-center">
+        <div class="col-5 align-items-center d-flex justify-content-end">
+          <a
+            href="./developer.html"
+            class="nav-link link-secondary fs-3"
+            aria-current="page"
+            >Developer</a
+          >
+        </div>
+        <!-- ZAYRA PHOTO -->
+        <div class="col-2 text-center">
+          <img
+            class="mx-auto w-100 rounded-circle"
+            src="../assets/img/zayraprofile.png"
+            alt="zay"
+          />
+        </div>
+        <div class="col-5 align-items-center d-flex justify-content-start">
+          <span class="text-secondary fs-3">Artist</span>
+        </div>
       </div>
-      <!-- ZAYRA PHOTO -->
-      <div>
-        <img
-          class="mx-auto w-25 rounded-circle"
-          src="../assets/img/zayraprofile.png"
-          alt="zay"
-        />
-      </div>
-      <div class="text-secondary fs-3">Artist</div>
     </div>
     <!-- up -->
     <div class="up">
@@ -159,15 +163,10 @@
     <h2 class="mx-4 display-1 text-secondary" id="about">about</h2>
     <div class="container-lg text-center mx-auto">
       <p class="text-wrap lh-base manrope text-secondary fs-3">
-        In my practice, I capture fleeting moments as a way to hold onto time
-        that feels perpetually slipping away.
-      </p>
-      <p class="text-wrap lh-base manrope text-secondary fs-3">
         In my practice, I try to capture fleeting moments as a way to hold onto
         time that feels perpetually slipping away seeking to give visibility to
         the overlooked moments where life also unfolds. These seemingly
-        insignificant details are integral to the whole and deserve to be
-        witnessed as much as the conventionally celebrated.
+        insignificant details are life itself.
       </p>
       <p class="text-wrap lh-base manrope text-secondary fs-3">
         I use colored pencil, ink, graphite and digital media emphasizing
@@ -176,1429 +175,1100 @@
     </div>
     <!-- gallery -->
     <h2 class="mx-4 display-1 text-secondary" id="gallery">gallery</h2>
-    <div class="container-lg accordion text-center" id="accordionGallery">
-      <!-- digital -->
-      <h3 class="manrope text-uppercase">digital</h3>
-      <!-- 2024 -->
-      <div class="row col-6 col-md-4 col-lg-3 mx-auto">
-        <!-- d2024 button -->
-        <button
-          type="button"
-          class="btn btn-outline-secondary btn-lg my-4 collapsed"
-          data-bs-toggle="collapse"
-          data-bs-target="#gallery-d2024"
-          aria-expanded="false"
-          aria-controls="gallery-d2024"
-          id="d2024"
-        >
-          2024
-        </button>
-      </div>
-      <!-- d2024 gallery -->
-      <div
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
-        aria-labelledby="d2024"
-        id="gallery-d2024"
-        data-bs-parent="#accordionGallery"
-      >
-        <div class="col my-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/digital/2024/sbs3.png"
-            alt="step by step"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="step by step"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">You can do it: Step by step</h3>
-            <p class="card-text">Medium: digital</p>
-          </div>
-        </div>
-        <div class="col my-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/digital/2024/kwalking6.jpg"
-            alt="keep walking"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="keep walking"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">You can do it: Keep walking</h3>
-            <p class="card-text">Medium: digital</p>
-          </div>
-        </div>
-      </div>
-      <!-- traditional -->
-      <h3 class="manrope text-uppercase">traditional</h3>
-      <!-- 2004 -->
-      <div class="row col-6 col-md-4 col-lg-3 mx-auto">
-        <!-- 2004 button -->
-        <button
-          type="button"
-          class="btn btn-outline-secondary btn-lg my-4 collapsed"
-          data-bs-toggle="collapse"
-          data-bs-target="#gallery-2004"
-          aria-expanded="false"
-          aria-controls="gallery-2004"
-          id="2004"
-        >
-          2004
-        </button>
-      </div>
-      <!-- 2004 gallery -->
-      <div
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
-        aria-labelledby="2004"
-        id="gallery-2004"
-        data-bs-parent="#accordionGallery"
-      >
-        <div class="col my-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2004/2004-manicomio-autorretrato.JPG"
-            alt="2004-manicomio-autorretrato.JPG"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="autorretrato"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Manicomio: Autorretrato</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 25 cm x 35 cm</p>
-          </div>
-        </div>
-      </div>
-      <!-- 2006 -->
-      <div class="row col-6 col-md-4 col-lg-3 mx-auto">
-        <!-- 2006 button -->
-        <button
-          type="button"
-          class="btn btn-outline-secondary btn-lg my-4 collapsed"
-          data-bs-toggle="collapse"
-          data-bs-target="#gallery-2006"
-          aria-expanded="false"
-          aria-controls="gallery-2006"
-          id="2006"
-        >
-          2006
-        </button>
-      </div>
-      <!-- 2006 gallery -->
-      <div
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
-        aria-labelledby="2006"
-        id="gallery-2006"
-        data-bs-parent="#accordionGallery"
-      >
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2006/2006-exilio-autorretrato1.JPG"
-            alt="2006-exilio-autorretrato1"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="autorretrato"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Exilio: Autorretrato</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 35 cm x 25 cm</p>
-          </div>
-        </div>
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2006/2006-exilio-solitaria.JPG"
-            alt="2006-exilio-solitaria"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="solitaria"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Exilio: Solitaria</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 21 cm x 30 cm</p>
-          </div>
-        </div>
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2006/2006-exilio-solitario.JPG"
-            alt="2006-exilio-solitario"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="solitario"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Exilio: Solitario</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 21 cm x 30 cm</p>
-          </div>
-        </div>
-      </div>
-      <!-- 2009 -->
-      <div class="row col-6 col-md-4 col-lg-3 mx-auto">
-        <!-- 2009 button -->
-        <button
-          type="button"
-          class="btn btn-outline-secondary btn-lg my-4 collapsed"
-          data-bs-toggle="collapse"
-          data-bs-target="#gallery-2009"
-          aria-expanded="false"
-          aria-controls="gallery-2009"
-          id="2009"
-        >
-          2009
-        </button>
-      </div>
-      <!-- 2009 gallery -->
-      <div
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
-        id="gallery-2009"
-        aria-labelledby="2009"
-        data-bs-parent="#accordionGallery"
-      >
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2009/2009-exilio-viaje1.JPG"
-            alt="2009-exilio-viaje1"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="viaje 1"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Exilio: Viaje 1</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 25 cm x 17.5 cm</p>
-          </div>
-        </div>
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2009/2009-exilio-viaje2.JPG"
-            alt="2009-exilio-viaje2"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="viaje 2"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Exilio: Viaje 2</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 25 cm x 17.5 cm</p>
-          </div>
-        </div>
-      </div>
-      <!-- 2010 -->
-      <div class="row col-6 col-md-4 col-lg-3 mx-auto">
-        <!-- 2010 button -->
-        <button
-          type="button"
-          class="btn btn-outline-secondary btn-lg my-4 collapsed"
-          data-bs-toggle="collapse"
-          data-bs-target="#gallery-2010"
-          aria-expanded="false"
-          aria-controls="gallery-2010"
-          id="2010"
-        >
-          2010
-        </button>
-      </div>
-      <!-- 20010 gallery -->
-      <div
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
-        id="gallery-2010"
-        aria-labelledby="2010"
-        data-bs-parent="#accordionGallery"
-      >
-        <div class="col m4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2010/2010-circo-autorretrato.JPG"
-            alt="2010-circo-autorretrato"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="autorretrato"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Circo: Autorretrato</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 25 cm x 35 cm</p>
-          </div>
-        </div>
-      </div>
-      <!-- 2012 -->
-      <div class="row col-6 col-md-4 col-lg-3 mx-auto">
-        <!-- 2012 button -->
-        <button
-          type="button"
-          class="btn btn-outline-secondary btn-lg my-4 collapsed"
-          data-bs-toggle="collapse"
-          data-bs-target="#gallery-2012"
-          aria-expanded="false"
-          aria-controls="gallery-2012"
-          id="2012"
-        >
-          2012
-        </button>
-      </div>
-      <!-- 2012 gallery -->
-      <div
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
-        aria-labelledby="2012"
-        id="gallery-2012"
-        data-bs-parent="#accordionGallery"
-      >
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2012/2012-musicos-autorretrato.JPG"
-            alt="2012-musicos-autorretrato"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="autorretrato"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Músicos: Autorretrato</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 25 cm x 35 cm</p>
-          </div>
-        </div>
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2012/2012-musicos-guido.JPG"
-            alt="2012-musicos-guido"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="guido"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Músicos: Guido</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 21 cm x 30 cm</p>
-          </div>
-        </div>
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2012/2012-musicos-guitarra1.JPG"
-            alt="2012-musicos-guitarra1"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="guitarra 1"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Músicos: Guitarra 1</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 25 cm x 35 cm</p>
-          </div>
-        </div>
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2012/2012-musicos-guitarra2.JPG"
-            alt="2012-musicos-guitarra2"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="guitarra 2"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Músicos: Guitarra 2</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 25 cm x 35 cm</p>
-          </div>
-        </div>
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2012/2012-musicos-guitarra3.JPG"
-            alt="2012-musicos-guitarra3"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="guitarra 3"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Músicos: Guitarra 3</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 25 cm x 35 cm</p>
-          </div>
-        </div>
-      </div>
-      <!-- 2013 -->
-      <div class="row col-6 col-md-4 col-lg-3 mx-auto">
-        <!-- 2013 button -->
-        <button
-          type="button"
-          class="btn btn-outline-secondary btn-lg my-4 collapsed"
+    <div class="container-lg accordion" id="accordionGallery">
+      <!-- gallery: row 1 -->
+      <div class="d-flex flex-wrap justify-content-center g-4 mb-5">
+        <!-- 2013-ink button -->
+        <div
+          role="button"
+          tabindex="0"
+          class="col-6 col-md-4 col-lg-2 d-flex flex-column p-3 collapsed"
+          style="cursor: pointer"
           data-bs-toggle="collapse"
           data-bs-target="#gallery-2013"
           aria-expanded="false"
           aria-controls="gallery-2013"
           id="2013"
         >
-          2013
-        </button>
-      </div>
-      <!-- 2013 gallery -->
-      <div
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
-        aria-labelledby="2013"
-        id="gallery-2013"
-        data-bs-parent="#accordionGallery"
-      >
-        <div class="col m-4">
           <img
-            class="img-fluid gallery-img"
+            class="img-fluid"
             type="button"
-            src="../assets/artist/gallery/2013/2013-escasez-bucle.JPG"
-            alt="2013-escasez-bucle"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+            src="../assets/artist/gallery/2013/2013-escasez-bucle.png"
+            alt="ink"
+            style="
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+              max-width: 250px;
+              height: auto;
+            "
             data-bs-toggle="tooltip"
             data-bs-placement="top"
-            title="bucle"
+            title="ink"
           />
-          <div class="card-body">
-            <h3 class="card-title manrope">Escasez: Bucle</h3>
-            <p class="card-text">Medium: Colored pencils, Ink</p>
-            <p class="card-text">Format: 30 cm x 21 cm</p>
+        </div>
+        <!-- 2013-ink gallery -->
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center text-center collapse"
+          aria-labelledby="2013"
+          id="gallery-2013"
+          data-bs-parent="#accordionGallery"
+        >
+          <h3 class="col-9 card-title manrope m-4">Ink and colored pencils</h3>
+
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2013/2013-escasez-convivencia.png"
+              alt="2013-escasez-convivencia"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="convivencia"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Escasez: Convivencia</h3>
+              <p class="card-text">Medium: Colored pencils, Ink</p>
+              <p class="card-text">Format: 30 cm x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2013/2013-escasez-frustracion.png"
+              alt="2013-escasez-frustracion"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="frustración"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Escasez: Frustración</h3>
+              <p class="card-text">Medium: Colored pencils, Ink</p>
+              <p class="card-text">Format: 30 cm x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2013/2013-escasez-bucle.png"
+              alt="2013-escasez-bucle"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="bucle"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Escasez: Bucle</h3>
+              <p class="card-text">Medium: Colored pencils, Ink</p>
+              <p class="card-text">Format: 30 cm x 21 cm</p>
+            </div>
           </div>
         </div>
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2013/2013-escasez-convivencia.JPG"
-            alt="2013-escasez-convivencia"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="convivencia"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Escasez: Convivencia</h3>
-            <p class="card-text">Medium: Colored pencils, Ink</p>
-            <p class="card-text">Format: 30 cm x 21 cm</p>
-          </div>
-        </div>
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2013/2013-escasez-frustracion.JPG"
-            alt="2013-escasez-frustracion"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="frustración"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Escasez: Frustración</h3>
-            <p class="card-text">Medium: Colored pencils, Ink</p>
-            <p class="card-text">Format: 30 cm x 21 cm</p>
-          </div>
-        </div>
-      </div>
-      <!-- 2014 -->
-      <div class="row col-6 col-md-4 col-lg-3 mx-auto">
-        <!-- 2014 button -->
-        <button
-          type="button"
-          class="btn btn-outline-secondary btn-lg my-4 collapsed"
+        <!-- 2014-faces button -->
+        <div
+          role="button"
+          tabindex="0"
+          class="col-6 col-md-4 col-lg-2 d-flex flex-column p-3 collapsed"
+          style="cursor: pointer"
           data-bs-toggle="collapse"
           data-bs-target="#gallery-2014"
           aria-expanded="false"
           aria-controls="gallery-2014"
           id="2014"
         >
-          2014
-        </button>
-      </div>
-      <!-- 2014 gallery -->
-      <div
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
-        aria-labelledby="2014"
-        id="gallery-2014"
-        data-bs-parent="#accordionGallery"
-      >
-        <div class="col m-4">
           <img
-            class="img-fluid gallery-img"
+            class="img-fluid"
             type="button"
             src="../assets/artist/gallery/2014/2014-soledad-autorretrato.JPG"
-            alt="2014-soledad-autorretrato"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+            alt="faces"
+            style="
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+              max-width: 250px;
+              height: auto;
+            "
             data-bs-toggle="tooltip"
             data-bs-placement="top"
-            title="autorretrato"
+            title="faces"
           />
-          <div class="card-body">
-            <h3 class="card-title manrope">Soledad: Autorretrato</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 21 cm x 30 cm</p>
-          </div>
         </div>
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2014/2014-soledad-niña.JPG"
-            alt="2014-soledad-niña"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="niña"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Soledad: Niña</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 21 cm x 30 cm</p>
-          </div>
-        </div>
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2014/2014-soledad-niño.JPG"
-            alt="2014-soledad-niño"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="niño"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Soledad: Niño</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 21 cm x 30 cm</p>
-          </div>
-        </div>
-        <div class="col m-4">
-          <img
-            class="img-fluid gallery-img"
-            type="button"
-            src="../assets/artist/gallery/2014/2014-soledad-retratos.JPG"
-            alt="2014-soledad-retratos"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="retratos"
-          />
-          <div class="card-body">
-            <h3 class="card-title manrope">Soledad: Retratos</h3>
-            <p class="card-text">Medium: Colored pencils</p>
-            <p class="card-text">Format: 21 cm x 30 cm</p>
-          </div>
-        </div>
-      </div>
-      <!-- 2023 -->
-      <div class="row col-6 col-md-4 col-lg-3 mx-auto">
-        <!-- 2023 button -->
-        <button
-          type="button"
-          class="btn btn-outline-secondary btn-lg my-4 collapsed"
-          data-bs-toggle="collapse"
-          data-bs-target="#gallery-2023"
-          aria-expanded="false"
-          aria-controls="gallery-2023"
-          id="2023"
+        <!-- 2014-faces gallery -->
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
+          aria-labelledby="2014"
+          id="gallery-2014"
+          data-bs-parent="#accordionGallery"
         >
-          2023
-        </button>
-      </div>
-      <!-- 2023 gallery -->
-      <div
-        class="row row-cols-1 collapse"
-        aria-labelledby="2023"
-        id="gallery-2023"
-        data-bs-parent="#accordionGallery"
-      >
-        <div class="col">
-          <!-- cotidianos -->
-          <div
-            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center"
-          >
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/cotidianos/2023-renacer-cotidianos-cocina.jpg"
-                alt="2023-renacer-1"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="cocina"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Cotidianos: Cocina</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 26 cm x 17 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/cotidianos/2023-renacer-cotidianos-triada.jpg"
-                alt="2023-renacer-botanicos-triada"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="triada"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Cotidianos: Triada</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 10 cm x 10 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/cotidianos/2023-renacer-cotidianos-paredon.jpg"
-                alt="2023-renacer-botanicos-paredon"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="paredon"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Cotidianos: Paredón</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 10 cm x 15 cm</p>
-              </div>
+          <h3 class="col-9 card-title manrope m-4">
+            Faces: Ink and colored pencils
+          </h3>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2014/2014-soledad-autorretrato.JPG"
+              alt="2014-soledad-autorretrato"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="autorretrato"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Soledad: Autorretrato</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 21 cm x 30 cm</p>
             </div>
           </div>
-          <!-- ausencia -->
-          <div
-            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center"
-          >
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/distancia/2023-renacer-distancia1.jpg"
-                alt="2023-renacer-ausencia1"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="distancia 1b"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Distancia 1b</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 30 cm x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/distancia/2023-renacer-distancia2.jpg"
-                alt="2023-renacer-ausencia2"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="distancia 2"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Distancia 1</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 30 cm x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/distancia/2023-renacer-distancia3.jpg"
-                alt="2023-renacer-ausencia3"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="distancia 3"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Distancia 2</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 30 cm x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/distancia/2023-renacer-distancia4.jpg"
-                alt="2023-renacer-ausencia4"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="distancia 4"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Distancia 3</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 30 cm x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/distancia/2023-renacer-distancia5.jpg"
-                alt="2023-renacer-ausencia5"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="distancia 5"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Distancia 4</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 30 cm x 21 cm</p>
-              </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2014/2014-soledad-niña.JPG"
+              alt="2014-soledad-niña"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="niña"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Soledad: Niña</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 21 cm x 30 cm</p>
             </div>
           </div>
-          <!-- nature -->
-          <div
-            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center"
-          >
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-cala1.jpg"
-                alt="2023-renacer-botanicos-cala1"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="cala 1"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Nature in scale: Cala 1</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 10 cm x 10 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-cala2.jpg"
-                alt="2023-renacer-botanicos-cala2"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="cala 2"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Nature in scale: Cala 2</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 4 pieces, 30 cm x 39 cm each</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-loto1.jpg"
-                alt="2023-renacer-botanicos-loto1"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="loto 1"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Nature in scale: Loto 1</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 7 cm x 10 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-loto2.jpg"
-                alt="2023-renacer-botanicos-loto2"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="loto 2"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Nature in scale: Loto 2</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 4 pieces, 30 cm x 39 cm each</p>
-              </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2014/2014-soledad-niño.JPG"
+              alt="2014-soledad-niño"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="niño"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Soledad: Niño</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 21 cm x 30 cm</p>
             </div>
           </div>
-          <!-- nature: skull and verbena -->
-          <div
-            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center"
-          >
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena1.jpg"
-                alt="2023-renacer-recurrencia1"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="skull and verbena 1"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">
-                  Nature in scale: Skull and Verbena 1
-                </h3>
-                <p class="card-text">Medium: Graphite</p>
-                <p class="card-text">Format: 10 cm x 10 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena2.jpg"
-                alt="2023-renacer-recurrencia2"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="skull and verbena 2"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">
-                  Nature in scale: Skull and Verbena 2
-                </h3>
-                <p class="card-text">Medium: Colored pencils, Graphite</p>
-                <p class="card-text">Format: 15 cm x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena3.jpg"
-                alt="2023-renacer-recurrencia3"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="skull and verbena 3"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">
-                  Nature in scale: Skull and Verbena 3
-                </h3>
-                <p class="card-text">Medium: Colored pencils, Graphite</p>
-                <p class="card-text">Format: 15 cm x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena4.jpg"
-                alt="2023-renacer-recurrencia4"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="skull and verbena 4"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">
-                  Nature in scale: Skull and Verbena 4
-                </h3>
-                <p class="card-text">Medium: Colored pencils, Graphite</p>
-                <p class="card-text">Format: 15 x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena5.jpg"
-                alt="2023-renacer-recurrencia5"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="skull and verbena 5"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">
-                  Nature in scale: Skull and Verbena 5
-                </h3>
-                <p class="card-text">Medium: Colored pencils, Graphite</p>
-                <p class="card-text">Format: 15 cm x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena6.jpg"
-                alt="2023-renacer-recurrencia6"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="skull and verbena 6"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">
-                  Nature in scale: Skull and Verbena 6
-                </h3>
-                <p class="card-text">Medium: Colored pencils, Graphite</p>
-                <p class="card-text">Format: 4 pieces, 30 cm x 39 cm each</p>
-              </div>
-            </div>
-          </div>
-          <!-- dragones -->
-          <div
-            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center"
-          >
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/dragons/2023-renacer-dragones1.jpg"
-                alt="2023-renacer-dragones1"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="dragon 1"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Dragon 1</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 30 cm x 42 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/dragons/2023-renacer-dragones2.jpg"
-                alt="2023-renacer-dragones2"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="dragon 2"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Dragon 2</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 30 cm x 42 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/dragons/2023-renacer-dragones3.jpg"
-                alt="2023-renacer-dragones3"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="dragon 3"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Dragon 3</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 30 cm x 42 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/dragons/2023-renacer-dragones4.jpg"
-                alt="2023-renacer-dragones4"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="dragon 4"
-              />
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/dragons/2024-dragon5.jpg"
-                alt="2023-renacer-dragones4"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="dragon 5"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Dragon 5</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 29 cm x 21 cm</p>
-              </div>
-            </div>
-          </div>
-          <!-- invierno -->
-          <div
-            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center"
-          >
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/2023-renacer-invierno1.JPG"
-                alt="2023-renacer-invierno1"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="invierno 1"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Invierno 1</h3>
-                <p class="card-text">Medium: Graphite</p>
-                <p class="card-text">Format: 10 cm x 10 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/2023-renacer-invierno2.JPG"
-                alt="2023-renacer-invierno2"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="invierno 2"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Invierno 2</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 30 cm x 42 cm</p>
-              </div>
-            </div>
-          </div>
-          <!-- mascara -->
-          <div
-            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center"
-          >
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/mask/2023-renacer-mascara1.jpg"
-                alt="2023-renacer-mascara1"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="mask 1"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Mask 1</h3>
-                <p class="card-text">Medium: Colored pencils, Graphite</p>
-                <p class="card-text">Format: 30 cm x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/mask/2023-renacer-mascara2.jpg"
-                alt="2023-renacer-mascara2"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="mask 2"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Mask 2</h3>
-                <p class="card-text">Medium: Colored pencils, Graphite</p>
-                <p class="card-text">Format: 30 cm x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/mask/2023-renacer-mascara3.jpg"
-                alt="2023-renacer-mascara3"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="mask 3"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Mask 3</h3>
-                <p class="card-text">Medium: Colored pencils, Graphite</p>
-                <p class="card-text">Format: 30 cm x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/mask/2023-renacer-mascara4.jpg"
-                alt="2023-renacer-mascara4"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="mask 4"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Mask 4</h3>
-                <p class="card-text">Medium: Colored pencils, Graphite</p>
-                <p class="card-text">Format: 30 cm x 21 cm</p>
-              </div>
-            </div>
-          </div>
-          <!-- hada -->
-          <div
-            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center"
-          >
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/hada/2023-renacer-hada1.jpg"
-                alt="2023-renacer-unhadaextraviada1"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="hada 1"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Hada 1</h3>
-                <p class="card-text">Medium: Colored pencils, Ink</p>
-                <p class="card-text">Format: 21 cm x 29 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/hada/2023-renacer-hada2.jpg"
-                alt="2023-renacer-unhadaextraviada2"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="hada 2"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Hada 2</h3>
-                <p class="card-text">Medium: Colored pencils, Ink</p>
-                <p class="card-text">Format: 21 cm x 29 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/hada/2023-renacer-hada3.jpg"
-                alt="2023-renacer-unhadaextraviada3"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="hada 3"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Hada 3</h3>
-                <p class="card-text">Medium: Colored pencils, Ink</p>
-                <p class="card-text">Format: 21 cm x 29 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/hada/2023-renacer-hada4.jpg"
-                alt="2023-renacer-unhadaextraviada4"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="hada 4"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Hada 4</h3>
-                <p class="card-text">Medium: Colored pencils, Ink</p>
-                <p class="card-text">Format: 21 cm x 29 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/hada/2023-renacer-hada5.jpg"
-                alt="2023-renacer-unhadaextraviada5"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="hada 5"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Hada 5</h3>
-                <p class="card-text">Medium: Colored pencils, Ink</p>
-                <p class="card-text">Format: 16 cm x 23 cm</p>
-              </div>
-            </div>
-          </div>
-          <!-- bocetos lapices -->
-          <div
-            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center"
-          >
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2023/2023-renacer-2.JPG"
-                alt="2023-renacer-2"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title=""
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Cuervo</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 30 cm x 24.5 cm</p>
-              </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2014/2014-soledad-retratos.JPG"
+              alt="2014-soledad-retratos"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="retratos"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Soledad: Retratos</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 21 cm x 30 cm</p>
             </div>
           </div>
         </div>
-      </div>
-      <!-- 2024 -->
-      <div class="row col-6 col-md-4 col-lg-3 mx-auto">
-        <!-- 2024 button -->
-        <button
-          type="button"
-          class="btn btn-outline-secondary btn-lg my-4 collapsed"
+        <!-- 2023-hada button -->
+        <div
+          role="button"
+          tabindex="0"
+          class="col-6 col-md-4 col-lg-2 d-flex flex-column p-3 collapsed"
+          style="cursor: pointer"
           data-bs-toggle="collapse"
-          data-bs-target="#gallery-2024"
+          data-bs-target="#gallery-2023-hada"
           aria-expanded="false"
-          aria-controls="gallery-2024"
-          id="2024"
+          aria-controls="gallery-2023-hada"
+          id="2023-hada"
         >
-          2024
-        </button>
-      </div>
-      <!-- 2024 gallery -->
-      <div
-        class="row row-cols-1 collapse"
-        aria-labelledby="2024"
-        id="gallery-2024"
-        data-bs-parent="#accordionGallery"
-      >
-        <div class="col">
-          <div
-            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center"
-          >
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2024/sur/caviahue1.jpg"
-                alt="2014-soledad-autorretrato"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="caviahue1"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Caviahue 1</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 14 cm x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2024/sur/caviahue2.jpg"
-                alt="2014-soledad-niña"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="caviahue2"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Caviahue 2</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 14 cm x 21 cm</p>
-              </div>
-            </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2024/sur/neuquen.jpg"
-                alt="2014-soledad-niño"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="neuquen"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Neuquen</h3>
-                <p class="card-text">Medium: Colored pencils</p>
-                <p class="card-text">Format: 14 cm x 21 cm</p>
-              </div>
+          <img
+            class="img-fluid"
+            type="button"
+            src="../assets/artist/gallery/2023/hada/2023-renacer-hada5.png"
+            alt="hada"
+            style="
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+              max-width: 250px;
+              height: auto;
+            "
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="hada"
+          />
+        </div>
+        <!-- 2023-hada gallery -->
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
+          aria-labelledby="2023-hada"
+          id="gallery-2023-hada"
+          data-bs-parent="#accordionGallery"
+        >
+          <h3 class="col-9 card-title manrope m-4">
+            Hada: Ink and colored pencils
+          </h3>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/hada/2023-renacer-hada1.png"
+              alt="2023-renacer-unhadaextraviada1"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="hada 1"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Hada 1</h3>
+              <p class="card-text">Medium: Colored pencils, Ink</p>
+              <p class="card-text">Format: 21 cm x 29 cm</p>
             </div>
           </div>
-          <!-- bocetos oleo pastel -->
-          <div
-            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center"
-          >
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2024/escalera.jpg"
-                alt="escalera"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="escalera"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope">Escalera</h3>
-                <p class="card-text">Medium: Oil pastel</p>
-                <p class="card-text">Format: 14 cm x 21 cm</p>
-              </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/hada/2023-renacer-hada2.png"
+              alt="2023-renacer-unhadaextraviada2"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="hada 2"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Hada 2</h3>
+              <p class="card-text">Medium: Colored pencils, Ink</p>
+              <p class="card-text">Format: 21 cm x 29 cm</p>
             </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2024/mate.jpg"
-                alt="mate"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="mate"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope"></h3>
-                <p class="card-text">Medium: Oil pastel</p>
-                <p class="card-text">Format: 15 cm x 15 cm</p>
-              </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/hada/2023-renacer-hada3.png"
+              alt="2023-renacer-unhadaextraviada3"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="hada 3"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Hada 3</h3>
+              <p class="card-text">Medium: Colored pencils, Ink</p>
+              <p class="card-text">Format: 21 cm x 29 cm</p>
             </div>
-            <div class="col m-4">
-              <img
-                class="img-fluid gallery-img"
-                type="button"
-                src="../assets/artist/gallery/2024/portrait.jpg"
-                alt="portrait"
-                style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="portrait"
-              />
-              <div class="card-body">
-                <h3 class="card-title manrope"></h3>
-                <p class="card-text">Medium: Oil pastel</p>
-                <p class="card-text">Format: 14 cm x 21 cm</p>
-              </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/hada/2023-renacer-hada4.png"
+              alt="2023-renacer-unhadaextraviada4"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="hada 4"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Hada 4</h3>
+              <p class="card-text">Medium: Colored pencils, Ink</p>
+              <p class="card-text">Format: 21 cm x 29 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/hada/2023-renacer-hada5.png"
+              alt="2023-renacer-unhadaextraviada5"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="hada 5"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Hada 5</h3>
+              <p class="card-text">Medium: Colored pencils, Ink</p>
+              <p class="card-text">Format: 16 cm x 23 cm</p>
             </div>
           </div>
         </div>
-      </div>
-      <!-- 2025 -->
-      <div class="row col-6 col-md-4 col-lg-3 mx-auto">
-        <!-- 2025 button -->
-        <button
-          type="button"
-          class="btn btn-outline-secondary btn-lg my-4 collapsed"
+        <!-- 2023-botanicos button -->
+        <div
+          role="button"
+          tabindex="0"
+          class="col-6 col-md-4 col-lg-2 d-flex flex-column p-3 collapsed"
+          style="cursor: pointer"
           data-bs-toggle="collapse"
-          data-bs-target="#gallery-2025"
+          data-bs-target="#gallery-2023-botanicos"
           aria-expanded="false"
-          aria-controls="gallery-2025"
-          id="2025"
+          aria-controls="gallery-2023-botanicos"
+          id="2023-botanicos"
         >
-          2025
-        </button>
+          <img
+            class="img-fluid"
+            type="button"
+            src="../assets/artist/gallery/2025/callianthe1.png"
+            alt="nature"
+            style="
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+              max-width: 250px;
+              height: auto;
+            "
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="nature"
+          />
+        </div>
+        <!-- 2023-botanicos gallery -->
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
+          aria-labelledby="2023-botanicos"
+          id="gallery-2023-botanicos"
+          data-bs-parent="#accordionGallery"
+        >
+          <h3 class="col-9 card-title manrope m-4">Nature: colored pencils</h3>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-cala1.png"
+              alt="2023-renacer-botanicos-cala1"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="cala 1"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Nature in scale: Cala 1</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 10 cm x 10 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-cala2.jpg"
+              alt="2023-renacer-botanicos-cala2"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="cala 2"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Nature in scale: Cala 2</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 4 pieces, 30 cm x 39 cm each</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-loto1.png"
+              alt="2023-renacer-botanicos-loto1"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="loto 1"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Nature in scale: Loto 1</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 7 cm x 10 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-loto2.jpg"
+              alt="2023-renacer-botanicos-loto2"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="loto 2"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Nature in scale: Loto 2</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 4 pieces, 30 cm x 39 cm each</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena2.png"
+              alt="2023-renacer-recurrencia2"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="skull and verbena 2"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">
+                Nature in scale: Skull and Verbena 2
+              </h3>
+              <p class="card-text">Medium: Colored pencils, Graphite</p>
+              <p class="card-text">Format: 15 cm x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena3.png"
+              alt="2023-renacer-recurrencia3"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="skull and verbena 3"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">
+                Nature in scale: Skull and Verbena 3
+              </h3>
+              <p class="card-text">Medium: Colored pencils, Graphite</p>
+              <p class="card-text">Format: 15 cm x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena4.png"
+              alt="2023-renacer-recurrencia4"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="skull and verbena 4"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">
+                Nature in scale: Skull and Verbena 4
+              </h3>
+              <p class="card-text">Medium: Colored pencils, Graphite</p>
+              <p class="card-text">Format: 15 x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena5.png"
+              alt="2023-renacer-recurrencia5"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="skull and verbena 5"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">
+                Nature in scale: Skull and Verbena 5
+              </h3>
+              <p class="card-text">Medium: Colored pencils, Graphite</p>
+              <p class="card-text">Format: 15 cm x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena6.png"
+              alt="2023-renacer-recurrencia6"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="skull and verbena 6"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">
+                Nature in scale: Skull and Verbena 6
+              </h3>
+              <p class="card-text">Medium: Colored pencils, Graphite</p>
+              <p class="card-text">Format: 4 pieces, 30 cm x 39 cm each</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-triada.png"
+              alt="2023-renacer-botanicos-triada"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="triada"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Cotidianos: Triada</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 10 cm x 10 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-paredon.png"
+              alt="2023-renacer-nature-paredon"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="paredon"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Cotidianos: Paredón</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 10 cm x 15 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2025/callianthe1.png"
+              alt="callianthe1"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="callianthe"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Nature: Callianthe 1</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 15 cm x 21 cm</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- 2025 gallery -->
-      <div
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
-        aria-labelledby="2025"
-        id="gallery-2025"
-        data-bs-parent="#accordionGallery"
-      >
-        <div class="col m-4">
+      <!-- gallery: row 2 -->
+      <div class="d-flex flex-wrap justify-content-center g-4 mb-5">
+        <!-- 2023-distancia button -->
+        <div
+          role="button"
+          tabindex="0"
+          class="col-6 col-md-4 col-lg-2 d-flex flex-column p-3 collapsed"
+          style="cursor: pointer"
+          data-bs-toggle="collapse"
+          data-bs-target="#gallery-2023-distancia"
+          aria-expanded="false"
+          aria-controls="gallery-2023-distancia"
+          id="2023-distancia"
+        >
           <img
-            class="img-fluid gallery-img"
+            class="img-fluid"
             type="button"
-            src="../assets/artist/gallery/2025/abuela.jpg"
-            alt="2014-soledad-autorretrato"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+            src="../assets/artist/gallery/2023/distancia/2023-renacer-distancia5.png"
+            alt="distancia"
+            style="
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+              max-width: 250px;
+              height: auto;
+            "
             data-bs-toggle="tooltip"
             data-bs-placement="top"
-            title="abuela"
+            title="distancia"
           />
-          <div class="card-body">
-            <h3 class="card-title manrope">Nosotros: Abuela</h3>
-            <p class="card-text">Medium: Colored pencils, Graphite</p>
-            <p class="card-text">Format: 65 cm x 50 cm</p>
+        </div>
+        <!-- 2023-distancia gallery -->
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
+          aria-labelledby="2023"
+          id="gallery-2023-distancia"
+          data-bs-parent="#accordionGallery"
+        >
+          <h3 class="col-9 card-title manrope m-4">
+            Distancia: colored pencils
+          </h3>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/distancia/2023-renacer-distancia2.png"
+              alt="2023-renacer-ausencia2"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="distancia 2"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Distancia 1</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 30 cm x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/distancia/2023-renacer-distancia3.png"
+              alt="2023-renacer-ausencia3"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="distancia 3"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Distancia 2</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 30 cm x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/distancia/2023-renacer-distancia4.png"
+              alt="2023-renacer-ausencia4"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="distancia 4"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Distancia 3</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 30 cm x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/distancia/2023-renacer-distancia5.png"
+              alt="2023-renacer-ausencia5"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="distancia 5"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Distancia 4</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 30 cm x 21 cm</p>
+            </div>
           </div>
         </div>
-        <div class="col m-4">
+        <!-- 2023-mask button -->
+        <div
+          role="button"
+          tabindex="0"
+          class="col-6 col-md-4 col-lg-2 d-flex flex-column p-3 collapsed"
+          style="cursor: pointer"
+          data-bs-toggle="collapse"
+          data-bs-target="#gallery-2023-mask"
+          aria-expanded="false"
+          aria-controls="gallery-2023-mask"
+          id="2023-mask"
+        >
           <img
-            class="img-fluid gallery-img"
+            class="img-fluid"
             type="button"
-            src="../assets/artist/gallery/2025/familia.jpg"
-            alt="2014-soledad-niña"
-            style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+            src="../assets/artist/gallery/2023/mask/2023-renacer-mascara4.png"
+            alt="mask"
+            style="
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+              max-width: 250px;
+              height: auto;
+            "
             data-bs-toggle="tooltip"
             data-bs-placement="top"
-            title="familia"
+            title="mask"
           />
-          <div class="card-body">
-            <h3 class="card-title manrope">Nosotros: Familia</h3>
-            <p class="card-text">Medium: Graphite</p>
-            <p class="card-text">Format: 70 cm x 50 cm</p>
+        </div>
+        <!-- 2023-mask gallery -->
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
+          aria-labelledby="2023-mask"
+          id="gallery-2023-mask"
+          data-bs-parent="#accordionGallery"
+        >
+          <h3 class="col-9 card-title manrope m-4">Mask: colored pencils</h3>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/mask/2023-renacer-mascara3.png"
+              alt="2023-renacer-mascara3"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="mask 3"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Mask 3</h3>
+              <p class="card-text">Medium: Colored pencils, Graphite</p>
+              <p class="card-text">Format: 30 cm x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2023/mask/2023-renacer-mascara4.png"
+              alt="2023-renacer-mascara4"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="mask 4"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Mask 4</h3>
+              <p class="card-text">Medium: Colored pencils, Graphite</p>
+              <p class="card-text">Format: 30 cm x 21 cm</p>
+            </div>
           </div>
         </div>
-        <div class="col m-4">
+        <!-- 2024-winter button -->
+        <div
+          role="button"
+          tabindex="0"
+          class="col-6 col-md-4 col-lg-2 d-flex flex-column p-3 collapsed"
+          style="cursor: pointer"
+          data-bs-toggle="collapse"
+          data-bs-target="#gallery-2024-winter"
+          aria-expanded="false"
+          aria-controls="gallery-2024-winter"
+          id="2024-winter"
+        >
           <img
-            class="img-fluid gallery-img"
+            class="img-fluid"
             type="button"
-            src="../assets/artist/gallery/2025/niños.jpg"
-            alt="2014-soledad-niño"
+            src="../assets/artist/gallery/2024/sur/caviahue1.png"
+            alt="winter"
             style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
             data-bs-toggle="tooltip"
             data-bs-placement="top"
-            title="niños"
+            title="winter"
           />
-          <div class="card-body">
-            <h3 class="card-title manrope">Nosotros: Niños</h3>
-            <p class="card-text">Medium: Graphite</p>
-            <p class="card-text">Format: 65 cm x 50 cm</p>
+        </div>
+        <!-- 2024-winter gallery -->
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
+          aria-labelledby="2024-winter"
+          id="gallery-2024-winter"
+          data-bs-parent="#accordionGallery"
+        >
+          <h3 class="col-9 card-title manrope m-4">Winter: colored pencils</h3>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2024/sur/caviahue2.png"
+              alt="2014-soledad-niña"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="caviahue2"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Caviahue 2</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 14 cm x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2024/sur/neuquen.png"
+              alt="2014-soledad-niño"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="neuquen"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Neuquen</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 14 cm x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2024/sur/caviahue1.png"
+              alt="2014-soledad-autorretrato"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="caviahue1"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Caviahue 1</h3>
+              <p class="card-text">Medium: Colored pencils</p>
+              <p class="card-text">Format: 14 cm x 21 cm</p>
+            </div>
+          </div>
+        </div>
+        <!-- 2024-summer button -->
+        <div
+          role="button"
+          tabindex="0"
+          class="col-6 col-md-4 col-lg-2 d-flex flex-column p-3 collapsed"
+          style="cursor: pointer"
+          data-bs-toggle="collapse"
+          data-bs-target="#gallery-2024-summer"
+          aria-expanded="false"
+          aria-controls="gallery-2024-summer"
+          id="2024-summer"
+        >
+          <img
+            class="img-fluid"
+            type="button"
+            src="../assets/artist/gallery/2024/verano3.png"
+            alt="summer"
+            style="
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+              max-width: 250px;
+              height: auto;
+            "
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="summer"
+          />
+        </div>
+        <!-- 2024-summer gallery -->
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
+          aria-labelledby="2024-summer"
+          id="gallery-2024-summer"
+          data-bs-parent="#accordionGallery"
+        >
+          <h3 class="col-9 card-title manrope m-4">Summer: oil pastels</h3>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2024/verano2.png"
+              alt="verano 2"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="verano 2"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Verano 2</h3>
+              <p class="card-text">Medium: Oil pastel</p>
+              <p class="card-text">Format: 14 cm x 21 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2024/verano1.png"
+              alt="verano 1"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="verano 1"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Verano 1</h3>
+              <p class="card-text">Medium: Oil pastel</p>
+              <p class="card-text">Format: 15 cm x 15 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2024/verano3.png"
+              alt="verano 3"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="verano 3"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Verano 3</h3>
+              <p class="card-text">Medium: Oil pastel</p>
+              <p class="card-text">Format: 14 cm x 21 cm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- gallery: row 3 -->
+      <div class="d-flex flex-wrap justify-content-center g-4 mb-5">
+        <!-- d2024 button -->
+        <div
+          role="button"
+          tabindex="0"
+          class="col-6 col-md-4 col-lg-2 d-flex flex-column p-3 collapsed"
+          style="cursor: pointer"
+          data-bs-toggle="collapse"
+          data-bs-target="#gallery-d2024"
+          aria-expanded="false"
+          aria-controls="gallery-d2024"
+          id="d2024"
+        >
+          <img
+            class="img-fluid"
+            type="button"
+            src="../assets/artist/gallery/digital/2024/sbs3.png"
+            alt="step by step"
+            style="
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+              max-width: 250px;
+              height: auto;
+            "
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="step by step"
+          />
+        </div>
+        <!-- d2024 gallery -->
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
+          aria-labelledby="d2024"
+          id="gallery-d2024"
+          data-bs-parent="#accordionGallery"
+        >
+          <h3 class="col-9 card-title manrope m-4">You can do it: digital</h3>
+          <div class="col my-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/digital/2024/sbs3.png"
+              alt="step by step"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="step by step"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">You can do it: Step by step</h3>
+              <p class="card-text">Medium: digital</p>
+            </div>
+          </div>
+          <div class="col my-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/digital/2024/kwalking6.jpg"
+              alt="keep walking"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="keep walking"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">You can do it: Keep walking</h3>
+              <p class="card-text">Medium: digital</p>
+            </div>
+          </div>
+        </div>
+        <!-- 2025-nosotros button -->
+        <div
+          role="button"
+          tabindex="0"
+          class="col-6 col-md-4 col-lg-2 d-flex flex-column p-3 collapsed"
+          style="cursor: pointer"
+          data-bs-toggle="collapse"
+          data-bs-target="#gallery-2025-nosotros"
+          aria-expanded="false"
+          aria-controls="gallery-2025-nosotros"
+          id="2025-nosotros"
+        >
+          <img
+            class="img-fluid"
+            type="button"
+            src="../assets/artist/gallery/2025/abuela.png"
+            alt="nosotros"
+            style="
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+              max-width: 250px;
+              height: auto;
+            "
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="nosotros"
+          />
+        </div>
+        <!-- 2025-nosotros gallery -->
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center collapse"
+          aria-labelledby="2025-nosotros"
+          id="gallery-2025-nosotros"
+          data-bs-parent="#accordionGallery"
+        >
+          <h3 class="col-9 card-title manrope m-4">
+            Nosotros: colored pencils and graphite
+          </h3>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2025/familia1.png"
+              alt="familia1"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="familia 1"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Nosotros: Familia 1</h3>
+              <p class="card-text">Medium: Graphite</p>
+              <p class="card-text">Format: 70 cm x 50 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2025/familia2.png"
+              alt="familia2"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="familia 2"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Nosotros: Familia 2</h3>
+              <p class="card-text">Medium: Graphite</p>
+              <p class="card-text">Format: 70 cm x 50 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2025/niños.png"
+              alt="2014-soledad-niño"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="niños"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Nosotros: Niños</h3>
+              <p class="card-text">Medium: Graphite</p>
+              <p class="card-text">Format: 65 cm x 50 cm</p>
+            </div>
+          </div>
+          <div class="col m-4">
+            <img
+              class="img-fluid gallery-img"
+              type="button"
+              src="../assets/artist/gallery/2025/abuela.png"
+              alt="2014-soledad-autorretrato"
+              style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="abuela"
+            />
+            <div class="card-body">
+              <h3 class="card-title manrope">Nosotros: Abuela</h3>
+              <p class="card-text">Medium: Colored pencils, Graphite</p>
+              <p class="card-text">Format: 65 cm x 50 cm</p>
+            </div>
           </div>
         </div>
       </div>
@@ -1756,7 +1426,7 @@
             <div class="col">
               <div>
                 <img
-                  src="../assets/artist/gallery/2025/abuela.jpg"
+                  src="../assets/artist/gallery/2025/abuela.png"
                   class="img-fluid gallery-img mb-2"
                   type="button"
                   alt="abuela"
@@ -1770,11 +1440,11 @@
             <div class="col">
               <div>
                 <img
-                  src="../assets/artist/gallery/2025/familia.jpg"
+                  src="../assets/artist/gallery/2025/familia1.png"
                   class="img-fluid gallery-img mb-2"
                   type="button"
-                  alt="familia"
-                  title="familia"
+                  alt="familia 1"
+                  title="familia 1"
                 />
                 <div class="card-body">
                   <p class="card-text">Final artwork</p>
@@ -1784,7 +1454,7 @@
             <div class="col">
               <div>
                 <img
-                  src="../assets/artist/gallery/2025/niños.jpg"
+                  src="../assets/artist/gallery/2025/niños.png"
                   class="img-fluid gallery-img mb-2"
                   type="button"
                   alt="niños"
@@ -2259,7 +1929,7 @@
             <div class="col">
               <div>
                 <img
-                  src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-cala1.jpg"
+                  src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-cala1.png"
                   class="img-fluid gallery-img mb-2"
                   type="button"
                   alt="cala"
@@ -2285,7 +1955,7 @@
             <div class="col">
               <div>
                 <img
-                  src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-loto1.jpg"
+                  src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-loto1.png"
                   class="img-fluid gallery-img mb-2"
                   type="button"
                   alt="loto"
@@ -2311,7 +1981,7 @@
             <div class="col">
               <div>
                 <img
-                  src="../assets/artist/projects/natureinscale/loto2.jpg"
+                  src="../assets/artist/projects/natureinscale/loto1.png"
                   class="img-fluid gallery-img mb-2"
                   type="button"
                   alt="loto"
@@ -2322,7 +1992,7 @@
             <div class="col">
               <div>
                 <img
-                  src="../assets/artist/projects/natureinscale/loto1.jpg"
+                  src="../assets/artist/projects/natureinscale/loto2.jpg"
                   class="img-fluid gallery-img mb-2"
                   type="button"
                   alt="loto"
@@ -2348,7 +2018,7 @@
             <div class="col">
               <div>
                 <img
-                  src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena6.jpg"
+                  src="../assets/artist/gallery/2023/natureinscale/2023-renacer-nature-skullandverbena6.png"
                   class="img-fluid gallery-img mb-2"
                   type="button"
                   alt="skullandverbena"
@@ -2521,7 +2191,7 @@
             <div class="col">
               <div>
                 <img
-                  src="../assets/artist/gallery/2023/mask/2023-renacer-mascara3.jpg"
+                  src="../assets/artist/gallery/2023/mask/2023-renacer-mascara3.png"
                   class="img-fluid gallery-img"
                   type="button"
                   alt="mascara 3"
@@ -2532,7 +2202,7 @@
             <div class="col">
               <div>
                 <img
-                  src="../assets/artist/gallery/2023/mask/2023-renacer-mascara4.jpg"
+                  src="../assets/artist/gallery/2023/mask/2023-renacer-mascara4.png"
                   class="img-fluid gallery-img"
                   type="button"
                   alt="mascara 4"
